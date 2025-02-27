@@ -1,0 +1,53 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+package-lock.json
+
+# Logs
+logs/
+*.log
+debug.log
+error.log
+.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Docker
+docker-compose.yml
+.dockerignore
+Dockerfile
+docker-compose.override.yml
+
+# Temporary files
+tmp/
+dist/
+build/
+*.cache
+.cache/
+*.pid
+*.seed
+*.pid.lock
+*.swp
+
+# Editor files
+.vscode/
+.idea/
+*.iml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage & testing
+coverage/
+*.lcov
+
+# Local overrides
+*.local.js
+*.local.json
+config/local.js
+config/local.json

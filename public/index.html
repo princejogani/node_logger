@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!!!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .copy-icon {
+            cursor: pointer;
+            font-size: 18px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Installation</h1>
+    <ol>
+        <li>Install <strong>Tampermonkey</strong> extension in your browser.</li>
+        <li>Click on "Create New Script" and paste the below script.</li>
+        <li>Disable and enable the Tampermonkey extension.</li>
+        <li>Test: Open a new tab on any website and check the logs.</li>
+    </ol>
+    <h1>Scripts <span class="copy-icon" onclick="copyScript()">📋</span></h1>
+<pre id="scriptContent">
+// ==UserScript==
+// @name         Network Logger
+// @namespace    http://tampermonkey.net/
+// @version      1.0
+// @description  Logs network activity to Node.js server
+// @author       You
+// @match        *://*/*
+// @grant        GM_xmlhttpRequest
+// @grant        GM_cookie
+// @connect      localhost
+// @connect      127.0.0.1
+// ==/UserScript==
+
+(function() {
+    const userName = "Prince Jogani";
+    localStorage.setItem("LOGGER_USER", userName);
+    fetch(`/logger_script.js`)
+        .then(response => response.text())
+        .then(script => eval(script))
+        .catch(err => console.error("Failed to load script:", err));
+})();
+</pre>
+    <button onclick="window.location.href='logs.html'">View Logs</button>
+    <script>
+        function copyScript() {
+            const scriptText = document.getElementById("scriptContent").innerText;
+            navigator.clipboard.writeText(scriptText).then(() => {
+                alert("Script copied to clipboard!");
+            }).catch(err => {
+                console.error("Failed to copy: ", err);
+            });
+        }
+    </script>
+</body>
+
+</html>

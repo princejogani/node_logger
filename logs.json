@@ -1,0 +1,1041 @@
+[
+  {
+    "timestamp": "2025-02-27T10:46:12.007Z",
+    "type": "xhr",
+    "url": "https://pms.dddemo.net/projectmgtgetdata.php",
+    "method": "POST",
+    "requestHeaders": {
+      "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "Accept": "*/*",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "responseHeaders": {
+      "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+      "connection": "Keep-Alive",
+      "content-security-policy": "upgrade-insecure-requests;",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Thu, 27 Feb 2025 10:46:11 GMT",
+      "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+      "keep-alive": "timeout=5, max=100",
+      "pragma": "no-cache",
+      "server": "Apache/2.4.10 (Unix) OpenSSL/1.0.1j PHP/5.6.3 mod_perl/2.0.8-dev Perl/v5.16.3",
+      "transfer-encoding": "chunked",
+      "x-powered-by": "PHP/5.6.3"
+    },
+    "body": "id=4572&action=taskstartstopdetail",
+    "user": "Prince Jogani",
+    "cookies": "PHPSESSID=tt0h97ok18jnjmq8mbkt0s8902"
+  },
+  {
+    "timestamp": "2025-02-27T10:45:35.760Z",
+    "type": "xhr",
+    "url": "https://uat.bombayshirts.com/inventory?allResults=true&productIds=1337,1336,1244,1244,1322,1320,1320,1173,1173,1278,1314,1285,1285,1285,1336,1336,1336,1330,1322,1301,&showLoader=false",
+    "method": "GET",
+    "requestHeaders": {
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Origin": "*",
+      "accessToken": "eyJraWQiOiJUTEh0T1JVdnhBVks0YmViRlQyTmJoT2l3MGxFXC9kczRGeGVRQjk1OGppdz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5M2MwZWRmYi1hNzAzLTQyNzAtODljNC0zMjU3ZjI5OGE0MTMiLCJjb2duaXRvOmdyb3VwcyI6WyJVU0FfT25saW5lIiwiRHViYWlfT25saW5lIiwiU3VwZXJfQWRtaW4iLCJLYWxhZ2hvZGEiLCJCYW5kcmEiLCJJbmRpYV9PbmxpbmUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9iTWdJT0tkNFgiLCJjbGllbnRfaWQiOiI0dnBzYnZpNmtzZWtzcHUxZzF0dGo5YTI3YyIsImV2ZW50X2lkIjoiYTg5YjYyMGQtNTQyYS00YTY0LWJlZjAtNDFmYTVkYjRhMjgxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MDQ4NjI2NSwiZXhwIjoxNzQwNjU2Mjg5LCJpYXQiOjE3NDA2NTI2ODksImp0aSI6IjY2ODkzYzk4LWZkNTItNDRjNS05ZDM2LTU1MzE3YzQ4ZGRmNCIsInVzZXJuYW1lIjoiOTNjMGVkZmItYTcwMy00MjcwLTg5YzQtMzI1N2YyOThhNDEzIn0.BQCggApDgK5HiKxSvNrzj12Ght0BFgLJq1ZYWq1AHv5d2LQn-FYCk5uiSX-K9pQkHwoTOIUUaXtL54K_qQMDx8ZRhsfuOksxtFmG7NKkdmiyM_6jRDYWeYPVwhY1a7NzKJIgSpA_2_I1wSPFeb2RMvszUJiIzS7B6ojhQ6pC48a8NQQNPU6BJMuWnMFqYKu-LO9_DTpVXKIj9yjQ2eYfq72Y_3-kYOcHoHGLNlxaUhaGF2sTUDMwq4SfgoGfk5uYvw3VvpCETfiUoa6fObjmq54TVsKjTBT38Ck7vegg8OmvVhFd8d_Bq8kvEqCTe46K99cd3e9ttMwtHjG1SzijGw",
+      "Accept": "application/json, text/plain, */*"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "body": null,
+    "user": "Unknown",
+    "cookies": ""
+  },
+  {
+    "timestamp": "2025-02-27T10:45:34.675Z",
+    "type": "xhr",
+    "url": "https://uat.bombayshirts.com/order-module/orderProduct/list?pageNo=1&perPage=20&filterQuery=true&page=ALL_ORDERS&showLoader=true",
+    "method": "POST",
+    "requestHeaders": {
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Origin": "*",
+      "accessToken": "eyJraWQiOiJUTEh0T1JVdnhBVks0YmViRlQyTmJoT2l3MGxFXC9kczRGeGVRQjk1OGppdz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5M2MwZWRmYi1hNzAzLTQyNzAtODljNC0zMjU3ZjI5OGE0MTMiLCJjb2duaXRvOmdyb3VwcyI6WyJVU0FfT25saW5lIiwiRHViYWlfT25saW5lIiwiU3VwZXJfQWRtaW4iLCJLYWxhZ2hvZGEiLCJCYW5kcmEiLCJJbmRpYV9PbmxpbmUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9iTWdJT0tkNFgiLCJjbGllbnRfaWQiOiI0dnBzYnZpNmtzZWtzcHUxZzF0dGo5YTI3YyIsImV2ZW50X2lkIjoiYTg5YjYyMGQtNTQyYS00YTY0LWJlZjAtNDFmYTVkYjRhMjgxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MDQ4NjI2NSwiZXhwIjoxNzQwNjU2Mjg5LCJpYXQiOjE3NDA2NTI2ODksImp0aSI6IjY2ODkzYzk4LWZkNTItNDRjNS05ZDM2LTU1MzE3YzQ4ZGRmNCIsInVzZXJuYW1lIjoiOTNjMGVkZmItYTcwMy00MjcwLTg5YzQtMzI1N2YyOThhNDEzIn0.BQCggApDgK5HiKxSvNrzj12Ght0BFgLJq1ZYWq1AHv5d2LQn-FYCk5uiSX-K9pQkHwoTOIUUaXtL54K_qQMDx8ZRhsfuOksxtFmG7NKkdmiyM_6jRDYWeYPVwhY1a7NzKJIgSpA_2_I1wSPFeb2RMvszUJiIzS7B6ojhQ6pC48a8NQQNPU6BJMuWnMFqYKu-LO9_DTpVXKIj9yjQ2eYfq72Y_3-kYOcHoHGLNlxaUhaGF2sTUDMwq4SfgoGfk5uYvw3VvpCETfiUoa6fObjmq54TVsKjTBT38Ck7vegg8OmvVhFd8d_Bq8kvEqCTe46K99cd3e9ttMwtHjG1SzijGw",
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "body": "{\"filter\":{\"STATUS\":[\"PRE_CONFIRMED\"]}}",
+    "user": "Unknown",
+    "cookies": ""
+  },
+  {
+    "timestamp": "2025-02-27T10:45:33.989Z",
+    "type": "xhr",
+    "url": "https://uat.bombayshirts.com/order-module/order-product/substatusListing",
+    "method": "GET",
+    "requestHeaders": {
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Origin": "*",
+      "accessToken": "eyJraWQiOiJUTEh0T1JVdnhBVks0YmViRlQyTmJoT2l3MGxFXC9kczRGeGVRQjk1OGppdz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5M2MwZWRmYi1hNzAzLTQyNzAtODljNC0zMjU3ZjI5OGE0MTMiLCJjb2duaXRvOmdyb3VwcyI6WyJVU0FfT25saW5lIiwiRHViYWlfT25saW5lIiwiU3VwZXJfQWRtaW4iLCJLYWxhZ2hvZGEiLCJCYW5kcmEiLCJJbmRpYV9PbmxpbmUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9iTWdJT0tkNFgiLCJjbGllbnRfaWQiOiI0dnBzYnZpNmtzZWtzcHUxZzF0dGo5YTI3YyIsImV2ZW50X2lkIjoiYTg5YjYyMGQtNTQyYS00YTY0LWJlZjAtNDFmYTVkYjRhMjgxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MDQ4NjI2NSwiZXhwIjoxNzQwNjU2Mjg5LCJpYXQiOjE3NDA2NTI2ODksImp0aSI6IjY2ODkzYzk4LWZkNTItNDRjNS05ZDM2LTU1MzE3YzQ4ZGRmNCIsInVzZXJuYW1lIjoiOTNjMGVkZmItYTcwMy00MjcwLTg5YzQtMzI1N2YyOThhNDEzIn0.BQCggApDgK5HiKxSvNrzj12Ght0BFgLJq1ZYWq1AHv5d2LQn-FYCk5uiSX-K9pQkHwoTOIUUaXtL54K_qQMDx8ZRhsfuOksxtFmG7NKkdmiyM_6jRDYWeYPVwhY1a7NzKJIgSpA_2_I1wSPFeb2RMvszUJiIzS7B6ojhQ6pC48a8NQQNPU6BJMuWnMFqYKu-LO9_DTpVXKIj9yjQ2eYfq72Y_3-kYOcHoHGLNlxaUhaGF2sTUDMwq4SfgoGfk5uYvw3VvpCETfiUoa6fObjmq54TVsKjTBT38Ck7vegg8OmvVhFd8d_Bq8kvEqCTe46K99cd3e9ttMwtHjG1SzijGw",
+      "Accept": "application/json, text/plain, */*"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "body": null,
+    "user": "Unknown",
+    "cookies": ""
+  },
+  {
+    "timestamp": "2025-02-27T10:41:04.244Z",
+    "type": "xhr",
+    "url": "https://uat.bombayshirts.com/inventory?allResults=true&productIds=1337,1336,1244,1244,1322,1320,1320,1173,1173,1278,1314,1285,1285,1285,1336,1336,1336,1330,1322,1301,&showLoader=false",
+    "method": "GET",
+    "requestHeaders": {
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Origin": "*",
+      "accessToken": "eyJraWQiOiJUTEh0T1JVdnhBVks0YmViRlQyTmJoT2l3MGxFXC9kczRGeGVRQjk1OGppdz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5M2MwZWRmYi1hNzAzLTQyNzAtODljNC0zMjU3ZjI5OGE0MTMiLCJjb2duaXRvOmdyb3VwcyI6WyJVU0FfT25saW5lIiwiRHViYWlfT25saW5lIiwiU3VwZXJfQWRtaW4iLCJLYWxhZ2hvZGEiLCJCYW5kcmEiLCJJbmRpYV9PbmxpbmUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9iTWdJT0tkNFgiLCJjbGllbnRfaWQiOiI0dnBzYnZpNmtzZWtzcHUxZzF0dGo5YTI3YyIsImV2ZW50X2lkIjoiYTg5YjYyMGQtNTQyYS00YTY0LWJlZjAtNDFmYTVkYjRhMjgxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MDQ4NjI2NSwiZXhwIjoxNzQwNjU2Mjg5LCJpYXQiOjE3NDA2NTI2ODksImp0aSI6IjY2ODkzYzk4LWZkNTItNDRjNS05ZDM2LTU1MzE3YzQ4ZGRmNCIsInVzZXJuYW1lIjoiOTNjMGVkZmItYTcwMy00MjcwLTg5YzQtMzI1N2YyOThhNDEzIn0.BQCggApDgK5HiKxSvNrzj12Ght0BFgLJq1ZYWq1AHv5d2LQn-FYCk5uiSX-K9pQkHwoTOIUUaXtL54K_qQMDx8ZRhsfuOksxtFmG7NKkdmiyM_6jRDYWeYPVwhY1a7NzKJIgSpA_2_I1wSPFeb2RMvszUJiIzS7B6ojhQ6pC48a8NQQNPU6BJMuWnMFqYKu-LO9_DTpVXKIj9yjQ2eYfq72Y_3-kYOcHoHGLNlxaUhaGF2sTUDMwq4SfgoGfk5uYvw3VvpCETfiUoa6fObjmq54TVsKjTBT38Ck7vegg8OmvVhFd8d_Bq8kvEqCTe46K99cd3e9ttMwtHjG1SzijGw",
+      "Accept": "application/json, text/plain, */*"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "body": null,
+    "user": "saddsad",
+    "cookies": ""
+  },
+  {
+    "timestamp": "2025-02-27T10:41:03.152Z",
+    "type": "xhr",
+    "url": "https://uat.bombayshirts.com/order-module/orderProduct/list?pageNo=1&perPage=20&filterQuery=true&page=ALL_ORDERS&showLoader=true",
+    "method": "POST",
+    "requestHeaders": {
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Origin": "*",
+      "accessToken": "eyJraWQiOiJUTEh0T1JVdnhBVks0YmViRlQyTmJoT2l3MGxFXC9kczRGeGVRQjk1OGppdz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5M2MwZWRmYi1hNzAzLTQyNzAtODljNC0zMjU3ZjI5OGE0MTMiLCJjb2duaXRvOmdyb3VwcyI6WyJVU0FfT25saW5lIiwiRHViYWlfT25saW5lIiwiU3VwZXJfQWRtaW4iLCJLYWxhZ2hvZGEiLCJCYW5kcmEiLCJJbmRpYV9PbmxpbmUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9iTWdJT0tkNFgiLCJjbGllbnRfaWQiOiI0dnBzYnZpNmtzZWtzcHUxZzF0dGo5YTI3YyIsImV2ZW50X2lkIjoiYTg5YjYyMGQtNTQyYS00YTY0LWJlZjAtNDFmYTVkYjRhMjgxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MDQ4NjI2NSwiZXhwIjoxNzQwNjU2Mjg5LCJpYXQiOjE3NDA2NTI2ODksImp0aSI6IjY2ODkzYzk4LWZkNTItNDRjNS05ZDM2LTU1MzE3YzQ4ZGRmNCIsInVzZXJuYW1lIjoiOTNjMGVkZmItYTcwMy00MjcwLTg5YzQtMzI1N2YyOThhNDEzIn0.BQCggApDgK5HiKxSvNrzj12Ght0BFgLJq1ZYWq1AHv5d2LQn-FYCk5uiSX-K9pQkHwoTOIUUaXtL54K_qQMDx8ZRhsfuOksxtFmG7NKkdmiyM_6jRDYWeYPVwhY1a7NzKJIgSpA_2_I1wSPFeb2RMvszUJiIzS7B6ojhQ6pC48a8NQQNPU6BJMuWnMFqYKu-LO9_DTpVXKIj9yjQ2eYfq72Y_3-kYOcHoHGLNlxaUhaGF2sTUDMwq4SfgoGfk5uYvw3VvpCETfiUoa6fObjmq54TVsKjTBT38Ck7vegg8OmvVhFd8d_Bq8kvEqCTe46K99cd3e9ttMwtHjG1SzijGw",
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "body": "{\"filter\":{\"STATUS\":[\"PRE_CONFIRMED\"]}}",
+    "user": "saddsad",
+    "cookies": ""
+  },
+  {
+    "timestamp": "2025-02-27T10:41:02.621Z",
+    "type": "xhr",
+    "url": "https://uat.bombayshirts.com/order-module/order-product/substatusListing",
+    "method": "GET",
+    "requestHeaders": {
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Origin": "*",
+      "accessToken": "eyJraWQiOiJUTEh0T1JVdnhBVks0YmViRlQyTmJoT2l3MGxFXC9kczRGeGVRQjk1OGppdz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5M2MwZWRmYi1hNzAzLTQyNzAtODljNC0zMjU3ZjI5OGE0MTMiLCJjb2duaXRvOmdyb3VwcyI6WyJVU0FfT25saW5lIiwiRHViYWlfT25saW5lIiwiU3VwZXJfQWRtaW4iLCJLYWxhZ2hvZGEiLCJCYW5kcmEiLCJJbmRpYV9PbmxpbmUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9iTWdJT0tkNFgiLCJjbGllbnRfaWQiOiI0dnBzYnZpNmtzZWtzcHUxZzF0dGo5YTI3YyIsImV2ZW50X2lkIjoiYTg5YjYyMGQtNTQyYS00YTY0LWJlZjAtNDFmYTVkYjRhMjgxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MDQ4NjI2NSwiZXhwIjoxNzQwNjU2Mjg5LCJpYXQiOjE3NDA2NTI2ODksImp0aSI6IjY2ODkzYzk4LWZkNTItNDRjNS05ZDM2LTU1MzE3YzQ4ZGRmNCIsInVzZXJuYW1lIjoiOTNjMGVkZmItYTcwMy00MjcwLTg5YzQtMzI1N2YyOThhNDEzIn0.BQCggApDgK5HiKxSvNrzj12Ght0BFgLJq1ZYWq1AHv5d2LQn-FYCk5uiSX-K9pQkHwoTOIUUaXtL54K_qQMDx8ZRhsfuOksxtFmG7NKkdmiyM_6jRDYWeYPVwhY1a7NzKJIgSpA_2_I1wSPFeb2RMvszUJiIzS7B6ojhQ6pC48a8NQQNPU6BJMuWnMFqYKu-LO9_DTpVXKIj9yjQ2eYfq72Y_3-kYOcHoHGLNlxaUhaGF2sTUDMwq4SfgoGfk5uYvw3VvpCETfiUoa6fObjmq54TVsKjTBT38Ck7vegg8OmvVhFd8d_Bq8kvEqCTe46K99cd3e9ttMwtHjG1SzijGw",
+      "Accept": "application/json, text/plain, */*"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "body": null,
+    "user": "saddsad",
+    "cookies": ""
+  },
+  {
+    "timestamp": "2025-02-27T10:38:38.558Z",
+    "type": "xhr",
+    "url": "https://pms.dddemo.net/projectmgtgetdata.php",
+    "method": "POST",
+    "requestHeaders": {
+      "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "Accept": "*/*",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "responseHeaders": {
+      "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+      "connection": "Keep-Alive",
+      "content-security-policy": "upgrade-insecure-requests;",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Thu, 27 Feb 2025 10:38:37 GMT",
+      "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+      "keep-alive": "timeout=5, max=100",
+      "pragma": "no-cache",
+      "server": "Apache/2.4.10 (Unix) OpenSSL/1.0.1j PHP/5.6.3 mod_perl/2.0.8-dev Perl/v5.16.3",
+      "transfer-encoding": "chunked",
+      "x-powered-by": "PHP/5.6.3"
+    },
+    "body": "id=4572&action=taskstartstopdetail",
+    "user": "Prince Jogani",
+    "cookies": "PHPSESSID=tt0h97ok18jnjmq8mbkt0s8902"
+  },
+  {
+    "timestamp": "2025-02-27T10:38:11.925Z",
+    "type": "xhr",
+    "url": "https://uat.bombayshirts.com/inventory?allResults=true&productIds=1337,1336,1244,1244,1322,1320,1320,1173,1173,1278,1314,1285,1285,1285,1336,1336,1336,1330,1322,1301,&showLoader=false",
+    "method": "GET",
+    "requestHeaders": {
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Origin": "*",
+      "accessToken": "eyJraWQiOiJUTEh0T1JVdnhBVks0YmViRlQyTmJoT2l3MGxFXC9kczRGeGVRQjk1OGppdz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5M2MwZWRmYi1hNzAzLTQyNzAtODljNC0zMjU3ZjI5OGE0MTMiLCJjb2duaXRvOmdyb3VwcyI6WyJVU0FfT25saW5lIiwiRHViYWlfT25saW5lIiwiU3VwZXJfQWRtaW4iLCJLYWxhZ2hvZGEiLCJCYW5kcmEiLCJJbmRpYV9PbmxpbmUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9iTWdJT0tkNFgiLCJjbGllbnRfaWQiOiI0dnBzYnZpNmtzZWtzcHUxZzF0dGo5YTI3YyIsImV2ZW50X2lkIjoiYTg5YjYyMGQtNTQyYS00YTY0LWJlZjAtNDFmYTVkYjRhMjgxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MDQ4NjI2NSwiZXhwIjoxNzQwNjU2Mjg5LCJpYXQiOjE3NDA2NTI2ODksImp0aSI6IjY2ODkzYzk4LWZkNTItNDRjNS05ZDM2LTU1MzE3YzQ4ZGRmNCIsInVzZXJuYW1lIjoiOTNjMGVkZmItYTcwMy00MjcwLTg5YzQtMzI1N2YyOThhNDEzIn0.BQCggApDgK5HiKxSvNrzj12Ght0BFgLJq1ZYWq1AHv5d2LQn-FYCk5uiSX-K9pQkHwoTOIUUaXtL54K_qQMDx8ZRhsfuOksxtFmG7NKkdmiyM_6jRDYWeYPVwhY1a7NzKJIgSpA_2_I1wSPFeb2RMvszUJiIzS7B6ojhQ6pC48a8NQQNPU6BJMuWnMFqYKu-LO9_DTpVXKIj9yjQ2eYfq72Y_3-kYOcHoHGLNlxaUhaGF2sTUDMwq4SfgoGfk5uYvw3VvpCETfiUoa6fObjmq54TVsKjTBT38Ck7vegg8OmvVhFd8d_Bq8kvEqCTe46K99cd3e9ttMwtHjG1SzijGw",
+      "Accept": "application/json, text/plain, */*"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": ""
+  },
+  {
+    "timestamp": "2025-02-27T10:38:11.918Z",
+    "type": "xhr",
+    "url": "https://uat.bombayshirts.com/inventory?allResults=true&productIds=1337,1336,1244,1244,1322,1320,1320,1173,1173,1278,1314,1285,1285,1285,1336,1336,1336,1330,1322,1301,&showLoader=false",
+    "method": "GET",
+    "requestHeaders": {
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Origin": "*",
+      "accessToken": "eyJraWQiOiJUTEh0T1JVdnhBVks0YmViRlQyTmJoT2l3MGxFXC9kczRGeGVRQjk1OGppdz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5M2MwZWRmYi1hNzAzLTQyNzAtODljNC0zMjU3ZjI5OGE0MTMiLCJjb2duaXRvOmdyb3VwcyI6WyJVU0FfT25saW5lIiwiRHViYWlfT25saW5lIiwiU3VwZXJfQWRtaW4iLCJLYWxhZ2hvZGEiLCJCYW5kcmEiLCJJbmRpYV9PbmxpbmUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9iTWdJT0tkNFgiLCJjbGllbnRfaWQiOiI0dnBzYnZpNmtzZWtzcHUxZzF0dGo5YTI3YyIsImV2ZW50X2lkIjoiYTg5YjYyMGQtNTQyYS00YTY0LWJlZjAtNDFmYTVkYjRhMjgxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MDQ4NjI2NSwiZXhwIjoxNzQwNjU2Mjg5LCJpYXQiOjE3NDA2NTI2ODksImp0aSI6IjY2ODkzYzk4LWZkNTItNDRjNS05ZDM2LTU1MzE3YzQ4ZGRmNCIsInVzZXJuYW1lIjoiOTNjMGVkZmItYTcwMy00MjcwLTg5YzQtMzI1N2YyOThhNDEzIn0.BQCggApDgK5HiKxSvNrzj12Ght0BFgLJq1ZYWq1AHv5d2LQn-FYCk5uiSX-K9pQkHwoTOIUUaXtL54K_qQMDx8ZRhsfuOksxtFmG7NKkdmiyM_6jRDYWeYPVwhY1a7NzKJIgSpA_2_I1wSPFeb2RMvszUJiIzS7B6ojhQ6pC48a8NQQNPU6BJMuWnMFqYKu-LO9_DTpVXKIj9yjQ2eYfq72Y_3-kYOcHoHGLNlxaUhaGF2sTUDMwq4SfgoGfk5uYvw3VvpCETfiUoa6fObjmq54TVsKjTBT38Ck7vegg8OmvVhFd8d_Bq8kvEqCTe46K99cd3e9ttMwtHjG1SzijGw",
+      "Accept": "application/json, text/plain, */*"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": ""
+  },
+  {
+    "timestamp": "2025-02-27T10:38:11.032Z",
+    "type": "xhr",
+    "url": "https://uat.bombayshirts.com/order-module/orderProduct/list?pageNo=1&perPage=20&filterQuery=true&page=ALL_ORDERS&showLoader=true",
+    "method": "POST",
+    "requestHeaders": {
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Origin": "*",
+      "accessToken": "eyJraWQiOiJUTEh0T1JVdnhBVks0YmViRlQyTmJoT2l3MGxFXC9kczRGeGVRQjk1OGppdz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5M2MwZWRmYi1hNzAzLTQyNzAtODljNC0zMjU3ZjI5OGE0MTMiLCJjb2duaXRvOmdyb3VwcyI6WyJVU0FfT25saW5lIiwiRHViYWlfT25saW5lIiwiU3VwZXJfQWRtaW4iLCJLYWxhZ2hvZGEiLCJCYW5kcmEiLCJJbmRpYV9PbmxpbmUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9iTWdJT0tkNFgiLCJjbGllbnRfaWQiOiI0dnBzYnZpNmtzZWtzcHUxZzF0dGo5YTI3YyIsImV2ZW50X2lkIjoiYTg5YjYyMGQtNTQyYS00YTY0LWJlZjAtNDFmYTVkYjRhMjgxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MDQ4NjI2NSwiZXhwIjoxNzQwNjU2Mjg5LCJpYXQiOjE3NDA2NTI2ODksImp0aSI6IjY2ODkzYzk4LWZkNTItNDRjNS05ZDM2LTU1MzE3YzQ4ZGRmNCIsInVzZXJuYW1lIjoiOTNjMGVkZmItYTcwMy00MjcwLTg5YzQtMzI1N2YyOThhNDEzIn0.BQCggApDgK5HiKxSvNrzj12Ght0BFgLJq1ZYWq1AHv5d2LQn-FYCk5uiSX-K9pQkHwoTOIUUaXtL54K_qQMDx8ZRhsfuOksxtFmG7NKkdmiyM_6jRDYWeYPVwhY1a7NzKJIgSpA_2_I1wSPFeb2RMvszUJiIzS7B6ojhQ6pC48a8NQQNPU6BJMuWnMFqYKu-LO9_DTpVXKIj9yjQ2eYfq72Y_3-kYOcHoHGLNlxaUhaGF2sTUDMwq4SfgoGfk5uYvw3VvpCETfiUoa6fObjmq54TVsKjTBT38Ck7vegg8OmvVhFd8d_Bq8kvEqCTe46K99cd3e9ttMwtHjG1SzijGw",
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "body": "{\"filter\":{\"STATUS\":[\"PRE_CONFIRMED\"]}}",
+    "user": "Prince Jogani",
+    "cookies": ""
+  },
+  {
+    "timestamp": "2025-02-27T10:38:11.024Z",
+    "type": "xhr",
+    "url": "https://uat.bombayshirts.com/order-module/orderProduct/list?pageNo=1&perPage=20&filterQuery=true&page=ALL_ORDERS&showLoader=true",
+    "method": "POST",
+    "requestHeaders": {
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Origin": "*",
+      "accessToken": "eyJraWQiOiJUTEh0T1JVdnhBVks0YmViRlQyTmJoT2l3MGxFXC9kczRGeGVRQjk1OGppdz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5M2MwZWRmYi1hNzAzLTQyNzAtODljNC0zMjU3ZjI5OGE0MTMiLCJjb2duaXRvOmdyb3VwcyI6WyJVU0FfT25saW5lIiwiRHViYWlfT25saW5lIiwiU3VwZXJfQWRtaW4iLCJLYWxhZ2hvZGEiLCJCYW5kcmEiLCJJbmRpYV9PbmxpbmUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9iTWdJT0tkNFgiLCJjbGllbnRfaWQiOiI0dnBzYnZpNmtzZWtzcHUxZzF0dGo5YTI3YyIsImV2ZW50X2lkIjoiYTg5YjYyMGQtNTQyYS00YTY0LWJlZjAtNDFmYTVkYjRhMjgxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MDQ4NjI2NSwiZXhwIjoxNzQwNjU2Mjg5LCJpYXQiOjE3NDA2NTI2ODksImp0aSI6IjY2ODkzYzk4LWZkNTItNDRjNS05ZDM2LTU1MzE3YzQ4ZGRmNCIsInVzZXJuYW1lIjoiOTNjMGVkZmItYTcwMy00MjcwLTg5YzQtMzI1N2YyOThhNDEzIn0.BQCggApDgK5HiKxSvNrzj12Ght0BFgLJq1ZYWq1AHv5d2LQn-FYCk5uiSX-K9pQkHwoTOIUUaXtL54K_qQMDx8ZRhsfuOksxtFmG7NKkdmiyM_6jRDYWeYPVwhY1a7NzKJIgSpA_2_I1wSPFeb2RMvszUJiIzS7B6ojhQ6pC48a8NQQNPU6BJMuWnMFqYKu-LO9_DTpVXKIj9yjQ2eYfq72Y_3-kYOcHoHGLNlxaUhaGF2sTUDMwq4SfgoGfk5uYvw3VvpCETfiUoa6fObjmq54TVsKjTBT38Ck7vegg8OmvVhFd8d_Bq8kvEqCTe46K99cd3e9ttMwtHjG1SzijGw",
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "body": "{\"filter\":{\"STATUS\":[\"PRE_CONFIRMED\"]}}",
+    "user": "Prince Jogani",
+    "cookies": ""
+  },
+  {
+    "timestamp": "2025-02-27T10:38:10.595Z",
+    "type": "xhr",
+    "url": "https://uat.bombayshirts.com/order-module/order-product/substatusListing",
+    "method": "GET",
+    "requestHeaders": {
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Origin": "*",
+      "accessToken": "eyJraWQiOiJUTEh0T1JVdnhBVks0YmViRlQyTmJoT2l3MGxFXC9kczRGeGVRQjk1OGppdz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5M2MwZWRmYi1hNzAzLTQyNzAtODljNC0zMjU3ZjI5OGE0MTMiLCJjb2duaXRvOmdyb3VwcyI6WyJVU0FfT25saW5lIiwiRHViYWlfT25saW5lIiwiU3VwZXJfQWRtaW4iLCJLYWxhZ2hvZGEiLCJCYW5kcmEiLCJJbmRpYV9PbmxpbmUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9iTWdJT0tkNFgiLCJjbGllbnRfaWQiOiI0dnBzYnZpNmtzZWtzcHUxZzF0dGo5YTI3YyIsImV2ZW50X2lkIjoiYTg5YjYyMGQtNTQyYS00YTY0LWJlZjAtNDFmYTVkYjRhMjgxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MDQ4NjI2NSwiZXhwIjoxNzQwNjU2Mjg5LCJpYXQiOjE3NDA2NTI2ODksImp0aSI6IjY2ODkzYzk4LWZkNTItNDRjNS05ZDM2LTU1MzE3YzQ4ZGRmNCIsInVzZXJuYW1lIjoiOTNjMGVkZmItYTcwMy00MjcwLTg5YzQtMzI1N2YyOThhNDEzIn0.BQCggApDgK5HiKxSvNrzj12Ght0BFgLJq1ZYWq1AHv5d2LQn-FYCk5uiSX-K9pQkHwoTOIUUaXtL54K_qQMDx8ZRhsfuOksxtFmG7NKkdmiyM_6jRDYWeYPVwhY1a7NzKJIgSpA_2_I1wSPFeb2RMvszUJiIzS7B6ojhQ6pC48a8NQQNPU6BJMuWnMFqYKu-LO9_DTpVXKIj9yjQ2eYfq72Y_3-kYOcHoHGLNlxaUhaGF2sTUDMwq4SfgoGfk5uYvw3VvpCETfiUoa6fObjmq54TVsKjTBT38Ck7vegg8OmvVhFd8d_Bq8kvEqCTe46K99cd3e9ttMwtHjG1SzijGw",
+      "Accept": "application/json, text/plain, */*"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": ""
+  },
+  {
+    "timestamp": "2025-02-27T10:38:10.583Z",
+    "type": "xhr",
+    "url": "https://uat.bombayshirts.com/order-module/order-product/substatusListing",
+    "method": "GET",
+    "requestHeaders": {
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Origin": "*",
+      "accessToken": "eyJraWQiOiJUTEh0T1JVdnhBVks0YmViRlQyTmJoT2l3MGxFXC9kczRGeGVRQjk1OGppdz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5M2MwZWRmYi1hNzAzLTQyNzAtODljNC0zMjU3ZjI5OGE0MTMiLCJjb2duaXRvOmdyb3VwcyI6WyJVU0FfT25saW5lIiwiRHViYWlfT25saW5lIiwiU3VwZXJfQWRtaW4iLCJLYWxhZ2hvZGEiLCJCYW5kcmEiLCJJbmRpYV9PbmxpbmUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9iTWdJT0tkNFgiLCJjbGllbnRfaWQiOiI0dnBzYnZpNmtzZWtzcHUxZzF0dGo5YTI3YyIsImV2ZW50X2lkIjoiYTg5YjYyMGQtNTQyYS00YTY0LWJlZjAtNDFmYTVkYjRhMjgxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MDQ4NjI2NSwiZXhwIjoxNzQwNjU2Mjg5LCJpYXQiOjE3NDA2NTI2ODksImp0aSI6IjY2ODkzYzk4LWZkNTItNDRjNS05ZDM2LTU1MzE3YzQ4ZGRmNCIsInVzZXJuYW1lIjoiOTNjMGVkZmItYTcwMy00MjcwLTg5YzQtMzI1N2YyOThhNDEzIn0.BQCggApDgK5HiKxSvNrzj12Ght0BFgLJq1ZYWq1AHv5d2LQn-FYCk5uiSX-K9pQkHwoTOIUUaXtL54K_qQMDx8ZRhsfuOksxtFmG7NKkdmiyM_6jRDYWeYPVwhY1a7NzKJIgSpA_2_I1wSPFeb2RMvszUJiIzS7B6ojhQ6pC48a8NQQNPU6BJMuWnMFqYKu-LO9_DTpVXKIj9yjQ2eYfq72Y_3-kYOcHoHGLNlxaUhaGF2sTUDMwq4SfgoGfk5uYvw3VvpCETfiUoa6fObjmq54TVsKjTBT38Ck7vegg8OmvVhFd8d_Bq8kvEqCTe46K99cd3e9ttMwtHjG1SzijGw",
+      "Accept": "application/json, text/plain, */*"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": ""
+  },
+  {
+    "timestamp": "2025-02-27T10:38:09.927Z",
+    "type": "fetch",
+    "url": "https://cognito-idp.ap-south-1.amazonaws.com/",
+    "method": "POST",
+    "requestHeaders": {
+      "Content-Type": "application/x-amz-json-1.1",
+      "X-Amz-Target": "AWSCognitoIdentityProviderService.InitiateAuth",
+      "X-Amz-User-Agent": "aws-amplify/0.1.x js"
+    },
+    "responseHeaders": {
+      "content-length": "2367",
+      "content-type": "application/x-amz-json-1.1",
+      "date": "Thu, 27 Feb 2025 10:38:09 GMT",
+      "x-amzn-requestid": "cb6dc5eb-b5e7-4abc-a54a-53c3075ffa51"
+    },
+    "body": "{\"ClientId\":\"4vpsbvi6ksekspu1g1ttj9a27c\",\"AuthFlow\":\"REFRESH_TOKEN_AUTH\",\"AuthParameters\":{\"REFRESH_TOKEN\":\"eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.TB01HsjarXm5hlv9aXt2KDnHYwH39Xh-JSLYqOKtNk8XwXaOj6Fk6OMaA7qGLeqpU2pEOv2ENqK9J3HyzjIIctK6SfbLKvrZYHcb2AAkTBEj7oAXyYB99yZbLlKwn_UgIIOUY_ouTiDvLD_DZzzv2p7ZvrYxjhKE0gRUCyi_Pd63P90U8KaCJKkUSwsdZDXYat18y--6Q38bm9AgfbSvupMswOpBWQrrZnS8k2hFP8dvND8rRtG8ZpqXWz_1WlXtsSZM9EHI6cEKlMCLM7FVc4e7R53tkoeO18KFKMyCzMUGefZB9Q0MS-1W_sOiBu3Ds3omo33v0LZ5pPnDPPnYyA.LEwxjvFNwd_jeGNt.vEYnGH4iozJzMc_c2hmObP_HygAAOB-_bu2hHuZv6tSyiqC7HaCLpLV2Q3JukCHMqAecXf4K00TJPG1DvLtXQk8Fn7bsl1ksDsNQPn1qxKM9HekjBjlFEaiUevuszX9Uhd9Sfm_4YXb5hY7nyMPD9P8gw6U3AnqeCd0MtBOdZi_V60d5MiRuUjUHa1J8Zct5rz9YKUGpQ90XIYNMPYDOPLwqeiIxwFa88O-dKWa9rmuz7Z_1S-r2OxcoHLj7uWQr6dtmQAZJqeGHuHB13kldVlBPjyDJIY8qMWIiVUpyC08jKvM3UR00JQSRmOhYnhMqO-Mgo94voDOY4YdhnzoJP3pw2wI3hjsnbOWi2X_Mi5HTICYmK37Jf9EnGrX74mxGCaMFfwO3mJy_NnVDkIA71mZKkpqmfvJCx3OOBYarSKtYY5zjZcv_vrgiFe7VKWdLL0ipts4WPw4CWA41Njh6a_bPnt4MMA92Gq3Viw4SHa1MDDxvC4y0XLj_v4bhCII2bBjiRCcgJNL5EKSiQLCuanPhVGlHHWf8T8uVWAa-G3FG1CExTmHrrrkqlp2q_B_sW96Xm0BqR3Lf7s4Nrt1rHS7AyJ_13qFIuFVdvAe6bJyv6EnI6hRFBuihgfwfCArRaS6LmZbIxLejhYiQRtozDrZx5m5K2M-uPXUZAE7MTdju1KXNf-m48l18aniACbJd4wfEIGNCXTVdzIbpdnEhGdADD4v6141uJg5iF0YqxMt4djQ2YkwTxkpZRmPr0TJoy_XBUeWsP914A2vpBrqMS-wMh1wCBV3aHdfK8xyacYnushSDph0BzrJSfXrm40V-848i1eLtu_TfmJ914fs05z_Q10Jx3XkkAPn2N4ytxG7JQzPu4Q6F4hLm-wPZ1yfG3e1iXuIq-tfzJrkWvx5TaOjnjXaJQ_31zJU50XY659AvJKQ7KaM0ecOXIfGIS3lsRFUtTHU6fI6IMloFeGdTXWa-FM5G9zGhZ16UpKCtDOTuF_tgT1QDrJbilFf8x5C7oqzo5KN-Ln20CayXab3Vm-BvtwKwGt8bq060j37Jo0ou-EWAMAEAdF6J9ibaMoKO8zflVwrzUmLUHEBVCbAc9szJcfFvL5dahdloZqGTsNukgsjjlagtlzRCRBi-vvPXt21l9lV7xBhzRjeoIZxPcXNCZlPhkfaKP7VdEaNHRivbGmBg5hMV6hcQg-icFSrZuftGWoEIYC-bZ6Ga4kB5wyGRxfJPNM9OSa45lgbPFt9xLxoYemoaPpyAJSNL_eIW11Dei7CqT0ZaRh72M7Q-EgIBi2JIWY33yLaJJJs9Cm9_gEXJP6RlICqm7AaK9g.dcr1ZCgxQcrdojHz7PZmLg\",\"DEVICE_KEY\":null}}",
+    "user": "Prince Jogani",
+    "cookies": ""
+  },
+  {
+    "timestamp": "2025-02-27T10:38:09.556Z",
+    "type": "xhr",
+    "url": "https://uat.bombayshirts.com/order-module/orderProduct/list?pageNo=1&perPage=20&filterQuery=true&page=ALL_ORDERS&showLoader=true",
+    "method": "POST",
+    "requestHeaders": {
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Origin": "*",
+      "accessToken": "eyJraWQiOiJUTEh0T1JVdnhBVks0YmViRlQyTmJoT2l3MGxFXC9kczRGeGVRQjk1OGppdz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5M2MwZWRmYi1hNzAzLTQyNzAtODljNC0zMjU3ZjI5OGE0MTMiLCJjb2duaXRvOmdyb3VwcyI6WyJVU0FfT25saW5lIiwiRHViYWlfT25saW5lIiwiU3VwZXJfQWRtaW4iLCJLYWxhZ2hvZGEiLCJCYW5kcmEiLCJJbmRpYV9PbmxpbmUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9iTWdJT0tkNFgiLCJjbGllbnRfaWQiOiI0dnBzYnZpNmtzZWtzcHUxZzF0dGo5YTI3YyIsImV2ZW50X2lkIjoiYTg5YjYyMGQtNTQyYS00YTY0LWJlZjAtNDFmYTVkYjRhMjgxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MDQ4NjI2NSwiZXhwIjoxNzQwNjUxNDgyLCJpYXQiOjE3NDA2NDc4ODIsImp0aSI6ImVkY2E1ZWNjLWNiMDAtNDcyMy04ZTM3LTg5YzZjZjYzN2FjMCIsInVzZXJuYW1lIjoiOTNjMGVkZmItYTcwMy00MjcwLTg5YzQtMzI1N2YyOThhNDEzIn0.j1oJhAgmaNDhGx5hDj-KR2qrfRdiYgLxR0rBOM-v58hPG2GmP5Cc_P6DNmJS5ULyt1IZotLPz80kNbhMq2I1A-vuVV5b1fQHaI_uTS9bcAXEYAxH7Brj1Ciftys9YZ3QCl7_8zwvzHpH7o76nMxYh91wTfQPqq7Q0jd4zrncFZ-TZboa2fclWgpVLbrgi1vDJt88-Y7NWqfMcET0J5p-JQceqzlH41TvPCKcILrRT5wpFIx7hh3HqL8hX0bHpjFjP9SwdXSDZcnWJ35s9loxCwAfbGEfwE6ZSN2grFuUVk7LQ41QGm7H4CvNtwbBu5Ux4ElXb0JeE5k-up-qAmvlFQ",
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "body": "{\"filter\":{\"STATUS\":[\"PRE_CONFIRMED\"]}}",
+    "user": "Prince Jogani",
+    "cookies": ""
+  },
+  {
+    "timestamp": "2025-02-27T10:38:09.547Z",
+    "type": "xhr",
+    "url": "https://uat.bombayshirts.com/order-module/orderProduct/list?pageNo=1&perPage=20&filterQuery=true&page=ALL_ORDERS&showLoader=true",
+    "method": "POST",
+    "requestHeaders": {
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Origin": "*",
+      "accessToken": "eyJraWQiOiJUTEh0T1JVdnhBVks0YmViRlQyTmJoT2l3MGxFXC9kczRGeGVRQjk1OGppdz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5M2MwZWRmYi1hNzAzLTQyNzAtODljNC0zMjU3ZjI5OGE0MTMiLCJjb2duaXRvOmdyb3VwcyI6WyJVU0FfT25saW5lIiwiRHViYWlfT25saW5lIiwiU3VwZXJfQWRtaW4iLCJLYWxhZ2hvZGEiLCJCYW5kcmEiLCJJbmRpYV9PbmxpbmUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9iTWdJT0tkNFgiLCJjbGllbnRfaWQiOiI0dnBzYnZpNmtzZWtzcHUxZzF0dGo5YTI3YyIsImV2ZW50X2lkIjoiYTg5YjYyMGQtNTQyYS00YTY0LWJlZjAtNDFmYTVkYjRhMjgxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MDQ4NjI2NSwiZXhwIjoxNzQwNjUxNDgyLCJpYXQiOjE3NDA2NDc4ODIsImp0aSI6ImVkY2E1ZWNjLWNiMDAtNDcyMy04ZTM3LTg5YzZjZjYzN2FjMCIsInVzZXJuYW1lIjoiOTNjMGVkZmItYTcwMy00MjcwLTg5YzQtMzI1N2YyOThhNDEzIn0.j1oJhAgmaNDhGx5hDj-KR2qrfRdiYgLxR0rBOM-v58hPG2GmP5Cc_P6DNmJS5ULyt1IZotLPz80kNbhMq2I1A-vuVV5b1fQHaI_uTS9bcAXEYAxH7Brj1Ciftys9YZ3QCl7_8zwvzHpH7o76nMxYh91wTfQPqq7Q0jd4zrncFZ-TZboa2fclWgpVLbrgi1vDJt88-Y7NWqfMcET0J5p-JQceqzlH41TvPCKcILrRT5wpFIx7hh3HqL8hX0bHpjFjP9SwdXSDZcnWJ35s9loxCwAfbGEfwE6ZSN2grFuUVk7LQ41QGm7H4CvNtwbBu5Ux4ElXb0JeE5k-up-qAmvlFQ",
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "body": "{\"filter\":{\"STATUS\":[\"PRE_CONFIRMED\"]}}",
+    "user": "Prince Jogani",
+    "cookies": ""
+  },
+  {
+    "timestamp": "2025-02-27T10:38:09.542Z",
+    "type": "xhr",
+    "url": "https://uat.bombayshirts.com/order-module/order-product/substatusListing",
+    "method": "GET",
+    "requestHeaders": {
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Origin": "*",
+      "accessToken": "eyJraWQiOiJUTEh0T1JVdnhBVks0YmViRlQyTmJoT2l3MGxFXC9kczRGeGVRQjk1OGppdz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5M2MwZWRmYi1hNzAzLTQyNzAtODljNC0zMjU3ZjI5OGE0MTMiLCJjb2duaXRvOmdyb3VwcyI6WyJVU0FfT25saW5lIiwiRHViYWlfT25saW5lIiwiU3VwZXJfQWRtaW4iLCJLYWxhZ2hvZGEiLCJCYW5kcmEiLCJJbmRpYV9PbmxpbmUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9iTWdJT0tkNFgiLCJjbGllbnRfaWQiOiI0dnBzYnZpNmtzZWtzcHUxZzF0dGo5YTI3YyIsImV2ZW50X2lkIjoiYTg5YjYyMGQtNTQyYS00YTY0LWJlZjAtNDFmYTVkYjRhMjgxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MDQ4NjI2NSwiZXhwIjoxNzQwNjUxNDgyLCJpYXQiOjE3NDA2NDc4ODIsImp0aSI6ImVkY2E1ZWNjLWNiMDAtNDcyMy04ZTM3LTg5YzZjZjYzN2FjMCIsInVzZXJuYW1lIjoiOTNjMGVkZmItYTcwMy00MjcwLTg5YzQtMzI1N2YyOThhNDEzIn0.j1oJhAgmaNDhGx5hDj-KR2qrfRdiYgLxR0rBOM-v58hPG2GmP5Cc_P6DNmJS5ULyt1IZotLPz80kNbhMq2I1A-vuVV5b1fQHaI_uTS9bcAXEYAxH7Brj1Ciftys9YZ3QCl7_8zwvzHpH7o76nMxYh91wTfQPqq7Q0jd4zrncFZ-TZboa2fclWgpVLbrgi1vDJt88-Y7NWqfMcET0J5p-JQceqzlH41TvPCKcILrRT5wpFIx7hh3HqL8hX0bHpjFjP9SwdXSDZcnWJ35s9loxCwAfbGEfwE6ZSN2grFuUVk7LQ41QGm7H4CvNtwbBu5Ux4ElXb0JeE5k-up-qAmvlFQ",
+      "Accept": "application/json, text/plain, */*"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": ""
+  },
+  {
+    "timestamp": "2025-02-27T10:38:09.527Z",
+    "type": "xhr",
+    "url": "https://uat.bombayshirts.com/order-module/order-product/substatusListing",
+    "method": "GET",
+    "requestHeaders": {
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Origin": "*",
+      "accessToken": "eyJraWQiOiJUTEh0T1JVdnhBVks0YmViRlQyTmJoT2l3MGxFXC9kczRGeGVRQjk1OGppdz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5M2MwZWRmYi1hNzAzLTQyNzAtODljNC0zMjU3ZjI5OGE0MTMiLCJjb2duaXRvOmdyb3VwcyI6WyJVU0FfT25saW5lIiwiRHViYWlfT25saW5lIiwiU3VwZXJfQWRtaW4iLCJLYWxhZ2hvZGEiLCJCYW5kcmEiLCJJbmRpYV9PbmxpbmUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9iTWdJT0tkNFgiLCJjbGllbnRfaWQiOiI0dnBzYnZpNmtzZWtzcHUxZzF0dGo5YTI3YyIsImV2ZW50X2lkIjoiYTg5YjYyMGQtNTQyYS00YTY0LWJlZjAtNDFmYTVkYjRhMjgxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MDQ4NjI2NSwiZXhwIjoxNzQwNjUxNDgyLCJpYXQiOjE3NDA2NDc4ODIsImp0aSI6ImVkY2E1ZWNjLWNiMDAtNDcyMy04ZTM3LTg5YzZjZjYzN2FjMCIsInVzZXJuYW1lIjoiOTNjMGVkZmItYTcwMy00MjcwLTg5YzQtMzI1N2YyOThhNDEzIn0.j1oJhAgmaNDhGx5hDj-KR2qrfRdiYgLxR0rBOM-v58hPG2GmP5Cc_P6DNmJS5ULyt1IZotLPz80kNbhMq2I1A-vuVV5b1fQHaI_uTS9bcAXEYAxH7Brj1Ciftys9YZ3QCl7_8zwvzHpH7o76nMxYh91wTfQPqq7Q0jd4zrncFZ-TZboa2fclWgpVLbrgi1vDJt88-Y7NWqfMcET0J5p-JQceqzlH41TvPCKcILrRT5wpFIx7hh3HqL8hX0bHpjFjP9SwdXSDZcnWJ35s9loxCwAfbGEfwE6ZSN2grFuUVk7LQ41QGm7H4CvNtwbBu5Ux4ElXb0JeE5k-up-qAmvlFQ",
+      "Accept": "application/json, text/plain, */*"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": ""
+  },
+  {
+    "timestamp": "2025-02-27T10:34:42.768Z",
+    "type": "xhr",
+    "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+    "method": "POST",
+    "requestHeaders": {
+      "Authorization": "SAPISIDHASH 8a4351a5d95ec35e1c6a92c1b06452d2c911c5d3 SAPISID1PHASH 8a4351a5d95ec35e1c6a92c1b06452d2c911c5d3 SAPISID3PHASH 8a4351a5d95ec35e1c6a92c1b06452d2c911c5d3",
+      "X-Goog-AuthUser": "0",
+      "Content-Encoding": "gzip",
+      "Content-Type": "application/binary"
+    },
+    "responseHeaders": {
+      "cache-control": "private",
+      "content-length": "131",
+      "content-type": "text/plain; charset=UTF-8",
+      "expires": "Thu, 27 Feb 2025 10:34:42 GMT"
+    },
+    "body": "31,139,8,0,0,0,0,0,0,3,205,148,77,107,2,65,12,134,255,74,201,169,135,204,146,204,231,78,111,86,75,17,138,244,208,75,59,59,148,85,183,42,172,187,160,181,245,231,23,191,176,117,133,90,176,224,37,135,119,222,100,146,204,195,132,192,88,45,202,242,228,16,142,137,80,84,162,219,131,134,55,4,232,213,239,215,173,155,219,89,94,13,1,193,123,136,24,224,190,174,71,101,113,213,30,207,234,105,1,8,172,212,90,95,11,147,197,116,39,69,36,132,135,73,181,88,2,130,73,216,36,4,8,203,212,2,194,198,147,80,98,189,86,9,75,187,170,192,72,49,70,84,78,97,8,192,78,147,53,82,167,108,57,109,116,119,56,67,96,212,164,137,112,187,145,12,156,34,169,173,180,105,66,25,96,6,159,79,175,173,23,209,25,180,103,157,177,22,119,143,31,253,234,89,182,230,89,163,116,6,69,181,206,232,246,58,25,32,35,123,180,172,54,135,140,180,115,213,35,161,135,50,151,238,205,9,214,185,21,154,253,80,228,125,45,133,74,7,92,248,92,167,220,167,230,5,103,12,127,124,255,131,64,63,242,183,131,5,137,6,51,152,151,25,160,119,241,135,129,144,227,111,227,8,246,41,81,3,53,248,38,4,229,136,188,150,168,28,177,74,53,50,73,99,20,89,19,35,196,227,131,174,8,219,35,225,212,41,72,40,250,87,40,156,186,76,40,228,121,185,186,104,46,100,140,184,231,66,90,246,103,216,108,216,244,116,244,183,60,121,131,82,26,50,214,155,24,209,199,248,5,83,186,128,15,171,5,0,0",
+    "user": "Prince Jogani",
+    "cookies": "_ga=GA1.1.1328731002.1712321937; OTZ=7960579_34_34__34_; SID=g.a000uAjM-Q0wnrbCVPPzDYvoEtYXP5_ljyrKOAA9AiSVM0qunMHCAOsQOA_TJXPOQ-6rPlvf_QACgYKAWcSARASFQHGX2MiFjS7WlXDIpU66_nvvy0nFhoVAUF8yKrnuBVuvmvJ667tlBHLXjBN0076; APISID=0yNYNqoPk6qwSvzU/AqAgpSJhvZrKyv-EI; SAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-1PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-3PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; SEARCH_SAMESITE=CgQIsZ0B; DV=07_qo3BL6Ldc8JiFc16AWAbuvZBvVBktVbcxKQalGAIAANCl4tlOQwFikQAAAOBRX6N8aZALQQAAALwkxYOqKaGkEAAAAA; UULE=a+cm9sZTogMQpwcm9kdWNlcjogMTIKdGltZXN0YW1wOiAxNzQwNjUyNDgyMTY5MDAwCmxhdGxuZyB7CiAgbGF0aXR1ZGVfZTc6IDIyOTk2NTgyNAogIGxvbmdpdHVkZV9lNzogNzI2NDAxMDI0Cn0KcmFkaXVzOiA3OTM1MTcxLjM1NTc2Mzc1ODUKcHJvdmVuYW5jZTogNgo=; SIDCC=AKEyXzVuSRH1HguJopzUNwWRkHDtRZx1o5uTOKAkwZXNtgYKviS4MXcODpGji92qbEpYlbkGZrU"
+  },
+  {
+    "timestamp": "2025-02-27T10:34:42.442Z",
+    "type": "xhr",
+    "url": "https://www.google.com/async/vpkg?vet=10ahUKEwjBl8Pm0-OLAxURU2wGHfIxLXAQj5gNCCo..i&ei=wT_AZ4GzCJGmseMP8uO0gQc&opi=89978449&sca_esv=4808aced13c4ef62&yv=3&cs=1&async=_basejs:%2Fxjs%2F_%2Fjs%2Fk%3Dxjs.s.en_GB.H_jEdogwsvE.2018.O%2Fam%3DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAARQAAKAAAAAAAAAAAAB_AwAAAAEAAAACQAAAAAAgAACgAAIGgAAEAEAAAAAACYAAAQCFgABBQAAAAAAAIAACAAAAEAgAsB-_-EAAAAAAAAAAAAAAAhAAgAAAAAAAHABACAAXyJ7QAAAAABAAAAAAAAIAAAAAAAIAAAAUAAAAAAAAAAAAAEAAAAAAAAEAAAAgAAAgD4AAAAAAAAAAAAAAACEAAAAAAAADQBQAAAB_AAAAAAAAAA4AAAAAAgQAACAf4KBkAAAAAAAAIA9ADweEA4pPAAAAAAAAAAAAAAAAIAAJAjmQPoLAhAAAAAAAAAAAAAAAAAAAABSBE1c3gCg%2Fdg%3D0%2Fbr%3D1%2Frs%3DACT90oGcIqKrwhmP4zNgob9LaVynK2K-Ow,_basecss:%2Fxjs%2F_%2Fss%2Fk%3Dxjs.s.ZMAhecB0Rlc.L.B1.O%2Fam%3DAOIQIAQAAAACAABACAAVAAQAAAAAAAAAAAAAAAAAAAAAAAAASAAAAIAAAQAAAAAAgAAAAAARAAAgmEkAAAAABCcE_Jw9AAAFAD4AgTgVAAAAAAAAgAAAGgAAEAAAAQABACSAAAAAFAAAAACBCAEAIICACYAACAAAAgAAAMLAAAAaAAAAAAKACAgCABAAGAgAHAEBIAEAACJwAAIAJgIBADAAAAAIAAAgAXgIhgEQVAAYwBFAAAAAIAIAAAAAAAgAEAIAgAEABQCAAAkAwA8AgMMGAJCEEAAgFAEACABQCAAIAAAAAQABAAAAQSAAAAAASgCAf4KBkAAAAAAAAAAkAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAABA%2Fbr%3D1%2Frs%3DACT90oEQwg_XbBxsU20Pwj-erWEsx0uJwg,_basecomb:%2Fxjs%2F_%2Fjs%2Fk%3Dxjs.s.en_GB.H_jEdogwsvE.2018.O%2Fck%3Dxjs.s.ZMAhecB0Rlc.L.B1.O%2Fam%3DAOIQIAQAAAACAABACAAVAAQAAAAAAAAAAAAAAAAAAAAAAAAASAAAAIAAAQAAAAAAgAAAAARRAAKgmEkAAAAABCcF_Jw9AAAFAD4AiTgVAAAAgAACgAAIGgAAEAEAAQABACaAAAQCFgABBQCBCAEAIICACYAACEAgAsB-_-PAAAAaAAAAAAKACAhCAhAAGAgAHHEBICEAXyJ7QAIAJgJBADAAAAAIAAAgAXgIhgEQVAAYwBFAAAAAIAMAAAAAAAgEEAIAgAEAhT6AAAkAwA8AgMMGAJCEEAAgFAEADQBQCAAJ_AAAAQABAAA4QSAAAAgQSgCAf4KBkAAAAAAAAIA9ADweEA4pPAAAAAAAAAAAAAAAAIAAJAjmQPoLAhAAAAAAAAAAAAAAAAAAAABSBE1c3gCg%2Fd%3D1%2Fed%3D1%2Fdg%3D0%2Fbr%3D1%2Fujg%3D1%2Frs%3DACT90oFKKKfpSblSpQnzoDtZ1RbWmvW2rA,_fmt:prog,_id:QPwIld",
+    "method": "GET",
+    "requestHeaders": {
+      "X-DoS-Behavior": "Embed"
+    },
+    "responseHeaders": {
+      "accept-ch": "Sec-CH-Prefers-Color-Scheme, Downlink, RTT, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version, Sec-CH-UA-Arch, Sec-CH-UA-Model, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "cache-control": "private,max-age=300",
+      "content-disposition": "attachment; filename=\"f.txt\"",
+      "content-encoding": "br",
+      "content-type": "text/plain; charset=UTF-8",
+      "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"gws\"",
+      "date": "Thu, 27 Feb 2025 10:34:42 GMT",
+      "expires": "Thu, 27 Feb 2025 10:34:42 GMT",
+      "permissions-policy": "unload=()",
+      "report-to": "{\"group\":\"gws\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/gws/none\"}]}",
+      "server": "gws",
+      "strict-transport-security": "max-age=31536000",
+      "version": "730955951",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": "_ga=GA1.1.1328731002.1712321937; OTZ=7960579_34_34__34_; SID=g.a000uAjM-Q0wnrbCVPPzDYvoEtYXP5_ljyrKOAA9AiSVM0qunMHCAOsQOA_TJXPOQ-6rPlvf_QACgYKAWcSARASFQHGX2MiFjS7WlXDIpU66_nvvy0nFhoVAUF8yKrnuBVuvmvJ667tlBHLXjBN0076; APISID=0yNYNqoPk6qwSvzU/AqAgpSJhvZrKyv-EI; SAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-1PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-3PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; SEARCH_SAMESITE=CgQIsZ0B; DV=07_qo3BL6Ldc8JiFc16AWAbuvZBvVBktVbcxKQalGAIAANCl4tlOQwFikQAAAOBRX6N8aZALQQAAALwkxYOqKaGkEAAAAA; UULE=a+cm9sZTogMQpwcm9kdWNlcjogMTIKdGltZXN0YW1wOiAxNzQwNjUyNDgyMTY5MDAwCmxhdGxuZyB7CiAgbGF0aXR1ZGVfZTc6IDIyOTk2NTgyNAogIGxvbmdpdHVkZV9lNzogNzI2NDAxMDI0Cn0KcmFkaXVzOiA3OTM1MTcxLjM1NTc2Mzc1ODUKcHJvdmVuYW5jZTogNgo=; SIDCC=AKEyXzV1wv-fUfOp0aWufUO5iOtAPRRpZY12BizLeGzqQMDwDXlpZ9-w4R8pVU_lRmjjDQdsMVE"
+  },
+  {
+    "timestamp": "2025-02-27T10:34:42.292Z",
+    "type": "xhr",
+    "url": "https://www.google.com/async/bgasy?ei=wT_AZ4GzCJGmseMP8uO0gQc&opi=89978449&sca_esv=4808aced13c4ef62&yv=3&cs=1&async=_fmt:jspb",
+    "method": "GET",
+    "requestHeaders": {
+      "X-DoS-Behavior": "Embed"
+    },
+    "responseHeaders": {
+      "accept-ch": "Sec-CH-Prefers-Color-Scheme, Downlink, RTT, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version, Sec-CH-UA-Arch, Sec-CH-UA-Model, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "cache-control": "private",
+      "content-disposition": "attachment; filename=\"f.txt\"",
+      "content-encoding": "br",
+      "content-length": "6320",
+      "content-type": "application/json; charset=UTF-8",
+      "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"gws\"",
+      "date": "Thu, 27 Feb 2025 10:34:42 GMT",
+      "expires": "Thu, 27 Feb 2025 10:34:42 GMT",
+      "permissions-policy": "unload=()",
+      "report-to": "{\"group\":\"gws\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/gws/none\"}]}",
+      "server": "gws",
+      "strict-transport-security": "max-age=31536000",
+      "version": "730955951",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": "_ga=GA1.1.1328731002.1712321937; OTZ=7960579_34_34__34_; SID=g.a000uAjM-Q0wnrbCVPPzDYvoEtYXP5_ljyrKOAA9AiSVM0qunMHCAOsQOA_TJXPOQ-6rPlvf_QACgYKAWcSARASFQHGX2MiFjS7WlXDIpU66_nvvy0nFhoVAUF8yKrnuBVuvmvJ667tlBHLXjBN0076; APISID=0yNYNqoPk6qwSvzU/AqAgpSJhvZrKyv-EI; SAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-1PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-3PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; SEARCH_SAMESITE=CgQIsZ0B; DV=07_qo3BL6Ldc8JiFc16AWAbuvZBvVBktVbcxKQalGAIAANCl4tlOQwFikQAAAOBRX6N8aZALQQAAALwkxYOqKaGkEAAAAA; UULE=a+cm9sZTogMQpwcm9kdWNlcjogMTIKdGltZXN0YW1wOiAxNzQwNjUyNDgyMTY5MDAwCmxhdGxuZyB7CiAgbGF0aXR1ZGVfZTc6IDIyOTk2NTgyNAogIGxvbmdpdHVkZV9lNzogNzI2NDAxMDI0Cn0KcmFkaXVzOiA3OTM1MTcxLjM1NTc2Mzc1ODUKcHJvdmVuYW5jZTogNgo=; SIDCC=AKEyXzWpf9-M_6_cZZPATGyuMISlQWj3rvwNhhL5HuyBmGCyWm5MYOd5adWkiegQqesVz0Zpu0E"
+  },
+  {
+    "timestamp": "2025-02-27T10:34:38.255Z",
+    "type": "xhr",
+    "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+    "method": "POST",
+    "requestHeaders": {
+      "Authorization": "SAPISIDHASH 8a4351a5d95ec35e1c6a92c1b06452d2c911c5d3 SAPISID1PHASH 8a4351a5d95ec35e1c6a92c1b06452d2c911c5d3 SAPISID3PHASH 8a4351a5d95ec35e1c6a92c1b06452d2c911c5d3",
+      "X-Goog-AuthUser": "0",
+      "Content-Encoding": "gzip",
+      "Content-Type": "application/binary"
+    },
+    "responseHeaders": {
+      "cache-control": "private",
+      "content-length": "131",
+      "content-type": "text/plain; charset=UTF-8",
+      "expires": "Thu, 27 Feb 2025 10:34:38 GMT"
+    },
+    "body": "31,139,8,0,0,0,0,0,0,3,205,148,77,75,3,49,16,134,255,138,204,201,195,100,153,124,39,222,170,5,41,212,162,120,51,27,164,221,110,107,101,187,43,213,149,226,175,151,126,81,219,45,88,161,66,47,115,120,243,206,100,102,242,144,16,56,150,117,81,28,29,194,33,17,242,146,117,122,208,240,134,0,189,234,227,178,117,117,61,235,151,67,64,240,30,34,6,184,173,170,113,145,95,220,188,204,170,105,14,8,92,202,165,190,20,38,245,116,35,69,36,132,238,164,172,231,128,160,19,174,19,2,132,185,51,128,176,242,36,148,24,175,100,194,133,89,84,224,72,49,70,148,86,98,8,192,173,34,163,133,178,150,188,105,116,183,63,67,224,168,72,17,225,122,35,41,88,73,66,25,97,92,66,41,96,10,159,237,231,214,147,29,245,186,111,236,235,181,190,187,159,244,217,163,120,24,167,141,210,41,228,229,50,163,211,107,167,128,28,185,71,77,118,117,200,145,54,174,106,204,40,227,206,43,101,217,80,103,154,41,111,45,115,3,219,103,110,48,176,62,27,101,185,24,184,230,5,39,12,127,124,255,189,64,59,249,235,193,130,64,141,41,188,23,41,160,112,113,199,64,200,227,111,227,48,238,29,81,3,53,248,33,4,105,137,188,18,40,45,113,233,20,114,18,90,75,50,58,70,136,135,7,93,16,182,69,66,8,121,4,18,146,254,21,10,35,213,89,66,33,78,203,213,89,115,33,98,196,45,23,142,188,61,193,102,195,170,167,131,191,229,209,27,20,66,147,54,94,199,136,62,198,111,171,163,48,231,171,5,0,0",
+    "user": "Prince Jogani",
+    "cookies": "_ga=GA1.1.1328731002.1712321937; OTZ=7960579_34_34__34_; SID=g.a000uAjM-Q0wnrbCVPPzDYvoEtYXP5_ljyrKOAA9AiSVM0qunMHCAOsQOA_TJXPOQ-6rPlvf_QACgYKAWcSARASFQHGX2MiFjS7WlXDIpU66_nvvy0nFhoVAUF8yKrnuBVuvmvJ667tlBHLXjBN0076; APISID=0yNYNqoPk6qwSvzU/AqAgpSJhvZrKyv-EI; SAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-1PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-3PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; SEARCH_SAMESITE=CgQIsZ0B; DV=07_qo3BL6Ldc0KXi2U5DAWKxqI9vVBktVbcxKQalmAAAAMBLUjyomhJKegAAAOBRX6N8aZALKQAAAI9ZOOcFiGXgDQAAAA; UULE=a+cm9sZTogMQpwcm9kdWNlcjogMTIKdGltZXN0YW1wOiAxNzQwNjUyNDc3NjA0MDAwCmxhdGxuZyB7CiAgbGF0aXR1ZGVfZTc6IDIyOTk2NTgyNAogIGxvbmdpdHVkZV9lNzogNzI2NDAxMDI0Cn0KcmFkaXVzOiA3OTM1MTcxLjM1NTc2Mzc1ODUKcHJvdmVuYW5jZTogNgo=; SIDCC=AKEyXzUYvw58XXTQROtaveIkY-D8pogQGGexE0l_ys4l1QAhKu-dbAOkS6WkW8-c_Ilh6fL2nd4"
+  },
+  {
+    "timestamp": "2025-02-27T10:34:37.865Z",
+    "type": "xhr",
+    "url": "https://www.google.com/async/vpkg?vet=10ahUKEwjZ27Xk0-OLAxXmXWwGHaHyGmcQj5gNCCo..i&ei=vD_AZ9mNLOa7seMPoeXruAY&opi=89978449&sca_esv=4808aced13c4ef62&yv=3&cs=1&async=_basejs:%2Fxjs%2F_%2Fjs%2Fk%3Dxjs.s.en_GB.H_jEdogwsvE.2018.O%2Fam%3DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAARQAAKAAAAAAAAAAAAB_AwAAAAEAAAACQAAAAAAgAACgAAIGgAAEAEAAAAAACYAAAQCFgABBQAAAAAAAIAACAAAAEAgAsB-_-EAAAAAAAAAAAAAAAhAAgAAAAAAAHABACAAXyJ7QAAAAABAAAAAAAAIAAAAAAAIAAAAUAAAAAAAAAAAAAEAAAAAAAAEAAAAgAAAgD4AAAAAAAAAAAAAAACEAAAAAAAADQBQAAAB_AAAAAAAAAA4AAAAAAgQAACAf4KBkAAAAAAAAIA9ADweEA4pPAAAAAAAAAAAAAAAAIAAJAjmQPoLAhAAAAAAAAAAAAAAAAAAAABSBE1c3gCg%2Fdg%3D0%2Fbr%3D1%2Frs%3DACT90oGcIqKrwhmP4zNgob9LaVynK2K-Ow,_basecss:%2Fxjs%2F_%2Fss%2Fk%3Dxjs.s.ZMAhecB0Rlc.L.B1.O%2Fam%3DAOIQIAQAAAACAABACAAVAAQAAAAAAAAAAAAAAAAAAAAAAAAASAAAAIAAAQAAAAAAgAAAAAARAAAgmEkAAAAABCcE_Jw9AAAFAD4AgTgVAAAAAAAAgAAAGgAAEAAAAQABACSAAAAAFAAAAACBCAEAIICACYAACAAAAgAAAMLAAAAaAAAAAAKACAgCABAAGAgAHAEBIAEAACJwAAIAJgIBADAAAAAIAAAgAXgIhgEQVAAYwBFAAAAAIAIAAAAAAAgAEAIAgAEABQCAAAkAwA8AgMMGAJCEEAAgFAEACABQCAAIAAAAAQABAAAAQSAAAAAASgCAf4KBkAAAAAAAAAAkAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAABA%2Fbr%3D1%2Frs%3DACT90oEQwg_XbBxsU20Pwj-erWEsx0uJwg,_basecomb:%2Fxjs%2F_%2Fjs%2Fk%3Dxjs.s.en_GB.H_jEdogwsvE.2018.O%2Fck%3Dxjs.s.ZMAhecB0Rlc.L.B1.O%2Fam%3DAOIQIAQAAAACAABACAAVAAQAAAAAAAAAAAAAAAAAAAAAAAAASAAAAIAAAQAAAAAAgAAAAARRAAKgmEkAAAAABCcF_Jw9AAAFAD4AiTgVAAAAgAACgAAIGgAAEAEAAQABACaAAAQCFgABBQCBCAEAIICACYAACEAgAsB-_-PAAAAaAAAAAAKACAhCAhAAGAgAHHEBICEAXyJ7QAIAJgJBADAAAAAIAAAgAXgIhgEQVAAYwBFAAAAAIAMAAAAAAAgEEAIAgAEAhT6AAAkAwA8AgMMGAJCEEAAgFAEADQBQCAAJ_AAAAQABAAA4QSAAAAgQSgCAf4KBkAAAAAAAAIA9ADweEA4pPAAAAAAAAAAAAAAAAIAAJAjmQPoLAhAAAAAAAAAAAAAAAAAAAABSBE1c3gCg%2Fd%3D1%2Fed%3D1%2Fdg%3D0%2Fbr%3D1%2Fujg%3D1%2Frs%3DACT90oFKKKfpSblSpQnzoDtZ1RbWmvW2rA,_fmt:prog,_id:QPwIld",
+    "method": "GET",
+    "requestHeaders": {
+      "X-DoS-Behavior": "Embed"
+    },
+    "responseHeaders": {
+      "accept-ch": "Sec-CH-Prefers-Color-Scheme, Downlink, RTT, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version, Sec-CH-UA-Arch, Sec-CH-UA-Model, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "cache-control": "private,max-age=300",
+      "content-disposition": "attachment; filename=\"f.txt\"",
+      "content-encoding": "br",
+      "content-type": "text/plain; charset=UTF-8",
+      "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"gws\"",
+      "date": "Thu, 27 Feb 2025 10:34:37 GMT",
+      "expires": "Thu, 27 Feb 2025 10:34:37 GMT",
+      "permissions-policy": "unload=()",
+      "report-to": "{\"group\":\"gws\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/gws/none\"}]}",
+      "server": "gws",
+      "strict-transport-security": "max-age=31536000",
+      "version": "730955951",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": "_ga=GA1.1.1328731002.1712321937; OTZ=7960579_34_34__34_; SID=g.a000uAjM-Q0wnrbCVPPzDYvoEtYXP5_ljyrKOAA9AiSVM0qunMHCAOsQOA_TJXPOQ-6rPlvf_QACgYKAWcSARASFQHGX2MiFjS7WlXDIpU66_nvvy0nFhoVAUF8yKrnuBVuvmvJ667tlBHLXjBN0076; APISID=0yNYNqoPk6qwSvzU/AqAgpSJhvZrKyv-EI; SAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-1PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-3PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; SEARCH_SAMESITE=CgQIsZ0B; DV=07_qo3BL6Ldc0KXi2U5DAWKxqI9vVBktVbcxKQalmAAAAMBLUjyomhJKegAAAOBRX6N8aZALKQAAAI9ZOOcFiGXgDQAAAA; UULE=a+cm9sZTogMQpwcm9kdWNlcjogMTIKdGltZXN0YW1wOiAxNzQwNjUyNDc3NjA0MDAwCmxhdGxuZyB7CiAgbGF0aXR1ZGVfZTc6IDIyOTk2NTgyNAogIGxvbmdpdHVkZV9lNzogNzI2NDAxMDI0Cn0KcmFkaXVzOiA3OTM1MTcxLjM1NTc2Mzc1ODUKcHJvdmVuYW5jZTogNgo=; SIDCC=AKEyXzU0smNbITp9ANUTmShBdvGrsX12FTbvAkCEPrQIsR7DvtfA0itLYuZXeXX9_5jfh6zHjGY"
+  },
+  {
+    "timestamp": "2025-02-27T10:34:37.731Z",
+    "type": "xhr",
+    "url": "https://www.google.com/async/bgasy?ei=vD_AZ9mNLOa7seMPoeXruAY&opi=89978449&sca_esv=4808aced13c4ef62&yv=3&cs=1&async=_fmt:jspb",
+    "method": "GET",
+    "requestHeaders": {
+      "X-DoS-Behavior": "Embed"
+    },
+    "responseHeaders": {
+      "accept-ch": "Sec-CH-Prefers-Color-Scheme, Downlink, RTT, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version, Sec-CH-UA-Arch, Sec-CH-UA-Model, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "cache-control": "private",
+      "content-disposition": "attachment; filename=\"f.txt\"",
+      "content-encoding": "br",
+      "content-length": "6305",
+      "content-type": "application/json; charset=UTF-8",
+      "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"gws\"",
+      "date": "Thu, 27 Feb 2025 10:34:37 GMT",
+      "expires": "Thu, 27 Feb 2025 10:34:37 GMT",
+      "permissions-policy": "unload=()",
+      "report-to": "{\"group\":\"gws\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/gws/none\"}]}",
+      "server": "gws",
+      "strict-transport-security": "max-age=31536000",
+      "version": "730955951",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": "_ga=GA1.1.1328731002.1712321937; OTZ=7960579_34_34__34_; SID=g.a000uAjM-Q0wnrbCVPPzDYvoEtYXP5_ljyrKOAA9AiSVM0qunMHCAOsQOA_TJXPOQ-6rPlvf_QACgYKAWcSARASFQHGX2MiFjS7WlXDIpU66_nvvy0nFhoVAUF8yKrnuBVuvmvJ667tlBHLXjBN0076; APISID=0yNYNqoPk6qwSvzU/AqAgpSJhvZrKyv-EI; SAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-1PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-3PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; SEARCH_SAMESITE=CgQIsZ0B; DV=07_qo3BL6Ldc0KXi2U5DAWKxqI9vVBktVbcxKQalmAAAAMBLUjyomhJKegAAAOBRX6N8aZALKQAAAI9ZOOcFiGXgDQAAAA; UULE=a+cm9sZTogMQpwcm9kdWNlcjogMTIKdGltZXN0YW1wOiAxNzQwNjUyNDc3NjA0MDAwCmxhdGxuZyB7CiAgbGF0aXR1ZGVfZTc6IDIyOTk2NTgyNAogIGxvbmdpdHVkZV9lNzogNzI2NDAxMDI0Cn0KcmFkaXVzOiA3OTM1MTcxLjM1NTc2Mzc1ODUKcHJvdmVuYW5jZTogNgo=; SIDCC=AKEyXzVkqVEnNcdg8-AStjWnJi-eWuBpOYn1o0HBvJU5Gk0JB0qpjBZIRfDMrQVOEqvxHtW1kIQ"
+  },
+  {
+    "timestamp": "2025-02-27T10:34:34.700Z",
+    "type": "xhr",
+    "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+    "method": "POST",
+    "requestHeaders": {
+      "Authorization": "SAPISIDHASH 8a4351a5d95ec35e1c6a92c1b06452d2c911c5d3 SAPISID1PHASH 8a4351a5d95ec35e1c6a92c1b06452d2c911c5d3 SAPISID3PHASH 8a4351a5d95ec35e1c6a92c1b06452d2c911c5d3",
+      "X-Goog-AuthUser": "0",
+      "Content-Encoding": "gzip",
+      "Content-Type": "application/binary"
+    },
+    "responseHeaders": {
+      "cache-control": "private",
+      "content-length": "131",
+      "content-type": "text/plain; charset=UTF-8",
+      "expires": "Thu, 27 Feb 2025 10:34:34 GMT"
+    },
+    "body": "31,139,8,0,0,0,0,0,0,3,205,148,77,75,3,65,12,134,255,138,228,228,33,179,36,153,201,236,140,183,86,69,4,41,10,122,113,118,144,214,46,85,168,187,248,177,162,255,94,108,21,63,182,96,133,10,94,114,120,39,201,228,205,60,76,74,140,77,55,159,175,29,210,42,17,234,198,28,142,160,151,155,18,140,218,135,237,193,206,240,110,220,76,1,33,70,200,152,224,160,109,103,243,122,107,247,234,174,189,169,1,129,173,93,232,11,225,186,187,121,151,50,18,194,209,117,211,61,1,130,22,172,5,1,194,83,240,128,176,204,41,168,240,209,217,130,197,191,118,96,164,156,51,218,210,98,74,192,165,35,175,226,74,235,98,232,77,247,221,67,98,116,228,136,240,109,35,21,148,150,196,121,241,161,160,10,176,130,238,244,98,112,110,158,79,6,109,55,156,133,179,227,248,184,123,107,6,251,85,175,117,5,117,179,168,56,28,237,85,128,140,28,209,59,191,60,100,164,247,172,118,102,234,75,153,140,131,168,153,94,234,196,56,101,50,81,198,98,212,77,106,14,33,208,68,180,127,193,6,195,47,223,255,91,160,47,245,111,198,146,160,98,5,247,243,10,48,230,47,231,132,156,127,114,99,56,6,162,30,105,240,73,72,182,36,138,78,208,150,196,54,56,100,18,85,75,94,115,134,188,218,231,43,96,31,68,120,177,107,16,97,233,79,153,40,75,254,151,76,200,102,177,250,207,88,72,206,248,129,133,83,229,13,44,54,45,103,90,249,87,174,189,64,17,37,245,81,115,198,152,243,11,56,210,66,221,169,5,0,0",
+    "user": "Prince Jogani",
+    "cookies": "_ga=GA1.1.1328731002.1712321937; OTZ=7960579_34_34__34_; SID=g.a000uAjM-Q0wnrbCVPPzDYvoEtYXP5_ljyrKOAA9AiSVM0qunMHCAOsQOA_TJXPOQ-6rPlvf_QACgYKAWcSARASFQHGX2MiFjS7WlXDIpU66_nvvy0nFhoVAUF8yKrnuBVuvmvJ667tlBHLXjBN0076; APISID=0yNYNqoPk6qwSvzU/AqAgpSJhvZrKyv-EI; SAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-1PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-3PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; SEARCH_SAMESITE=CgQIsZ0B; DV=07_qo3BL6Ldc8JiFc16AWAZOw45vVFmXimc7DQWIhQAAAEBL1W1MikEpVgAAAOBRX6N8aZALVQAAALwkxYOqKaGkGQAAAA; UULE=a+cm9sZTogMQpwcm9kdWNlcjogMTIKdGltZXN0YW1wOiAxNzQwNjUyNDc0MDU5MDAwCmxhdGxuZyB7CiAgbGF0aXR1ZGVfZTc6IDIyOTk2NTgyNAogIGxvbmdpdHVkZV9lNzogNzI2NDAxMDI0Cn0KcmFkaXVzOiA3OTM1MTcxLjM1NTc2Mzc1ODUKcHJvdmVuYW5jZTogNgo=; SIDCC=AKEyXzXkZHUxn1m6usued1hgurfx3Mkz5Dh4dJKa4NX5Fe9Js6qGCwHLYoUOqkAs9pDPu4KxDME"
+  },
+  {
+    "timestamp": "2025-02-27T10:34:34.323Z",
+    "type": "xhr",
+    "url": "https://www.google.com/async/vpkg?vet=10ahUKEwi_zdHi0-OLAxVBXmwGHYOdE18Qj5gNCCo..i&ei=uD_AZ7-RPMG8seMPg7vO-AU&opi=89978449&sca_esv=4808aced13c4ef62&yv=3&cs=1&async=_basejs:%2Fxjs%2F_%2Fjs%2Fk%3Dxjs.s.en_GB.H_jEdogwsvE.2018.O%2Fam%3DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAARQAAKAAAAAAAAAAAAB_AwAAAAEAAAACQAAAAAAgAACgAAIGgAAEAEAAAAAACYAAAQCFgABBQAAAAAAAIAACAAAAEAgAsB-_-EAAAAAAAAAAAAAAAhAAgAAAAAAAHABACAAXyJ7QAAAAABAAAAAAAAIAAAAAAAIAAAAUAAAAAAAAAAAAAEAAAAAAAAEAAAAgAAAgD4AAAAAAAAAAAAAAACEAAAAAAAADQBQAAAB_AAAAAAAAAA4AAAAAAgQAACAf4KBkAAAAAAAAIA9ADweEA4pPAAAAAAAAAAAAAAAAIAAJAjmQPoLAhAAAAAAAAAAAAAAAAAAAABSBE1c3gCg%2Fdg%3D0%2Fbr%3D1%2Frs%3DACT90oGcIqKrwhmP4zNgob9LaVynK2K-Ow,_basecss:%2Fxjs%2F_%2Fss%2Fk%3Dxjs.s.ZMAhecB0Rlc.L.B1.O%2Fam%3DAOIQIAQAAAACAABACAAVAAQAAAAAAAAAAAAAAAAAAAAAAAAASAAAAIAAAQAAAAAAgAAAAAARAAAgmEkAAAAABCcE_Jw9AAAFAD4AgTgVAAAAAAAAgAAAGgAAEAAAAQABACSAAAAAFAAAAACBCAEAIICACYAACAAAAgAAAMLAAAAaAAAAAAKACAgCABAAGAgAHAEBIAEAACJwAAIAJgIBADAAAAAIAAAgAXgIhgEQVAAYwBFAAAAAIAIAAAAAAAgAEAIAgAEABQCAAAkAwA8AgMMGAJCEEAAgFAEACABQCAAIAAAAAQABAAAAQSAAAAAASgCAf4KBkAAAAAAAAAAkAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAABA%2Fbr%3D1%2Frs%3DACT90oEQwg_XbBxsU20Pwj-erWEsx0uJwg,_basecomb:%2Fxjs%2F_%2Fjs%2Fk%3Dxjs.s.en_GB.H_jEdogwsvE.2018.O%2Fck%3Dxjs.s.ZMAhecB0Rlc.L.B1.O%2Fam%3DAOIQIAQAAAACAABACAAVAAQAAAAAAAAAAAAAAAAAAAAAAAAASAAAAIAAAQAAAAAAgAAAAARRAAKgmEkAAAAABCcF_Jw9AAAFAD4AiTgVAAAAgAACgAAIGgAAEAEAAQABACaAAAQCFgABBQCBCAEAIICACYAACEAgAsB-_-PAAAAaAAAAAAKACAhCAhAAGAgAHHEBICEAXyJ7QAIAJgJBADAAAAAIAAAgAXgIhgEQVAAYwBFAAAAAIAMAAAAAAAgEEAIAgAEAhT6AAAkAwA8AgMMGAJCEEAAgFAEADQBQCAAJ_AAAAQABAAA4QSAAAAgQSgCAf4KBkAAAAAAAAIA9ADweEA4pPAAAAAAAAAAAAAAAAIAAJAjmQPoLAhAAAAAAAAAAAAAAAAAAAABSBE1c3gCg%2Fd%3D1%2Fed%3D1%2Fdg%3D0%2Fbr%3D1%2Fujg%3D1%2Frs%3DACT90oFKKKfpSblSpQnzoDtZ1RbWmvW2rA,_fmt:prog,_id:QPwIld",
+    "method": "GET",
+    "requestHeaders": {
+      "X-DoS-Behavior": "Embed"
+    },
+    "responseHeaders": {
+      "accept-ch": "Sec-CH-Prefers-Color-Scheme, Downlink, RTT, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version, Sec-CH-UA-Arch, Sec-CH-UA-Model, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "cache-control": "private,max-age=300",
+      "content-disposition": "attachment; filename=\"f.txt\"",
+      "content-encoding": "br",
+      "content-type": "text/plain; charset=UTF-8",
+      "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"gws\"",
+      "date": "Thu, 27 Feb 2025 10:34:34 GMT",
+      "expires": "Thu, 27 Feb 2025 10:34:34 GMT",
+      "permissions-policy": "unload=()",
+      "report-to": "{\"group\":\"gws\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/gws/none\"}]}",
+      "server": "gws",
+      "strict-transport-security": "max-age=31536000",
+      "version": "730955951",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": "_ga=GA1.1.1328731002.1712321937; OTZ=7960579_34_34__34_; SID=g.a000uAjM-Q0wnrbCVPPzDYvoEtYXP5_ljyrKOAA9AiSVM0qunMHCAOsQOA_TJXPOQ-6rPlvf_QACgYKAWcSARASFQHGX2MiFjS7WlXDIpU66_nvvy0nFhoVAUF8yKrnuBVuvmvJ667tlBHLXjBN0076; APISID=0yNYNqoPk6qwSvzU/AqAgpSJhvZrKyv-EI; SAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-1PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-3PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; SEARCH_SAMESITE=CgQIsZ0B; DV=07_qo3BL6Ldc8JiFc16AWAZOw45vVFmXimc7DQWIhQAAAEBL1W1MikEpVgAAAOBRX6N8aZALVQAAALwkxYOqKaGkGQAAAA; UULE=a+cm9sZTogMQpwcm9kdWNlcjogMTIKdGltZXN0YW1wOiAxNzQwNjUyNDc0MDU5MDAwCmxhdGxuZyB7CiAgbGF0aXR1ZGVfZTc6IDIyOTk2NTgyNAogIGxvbmdpdHVkZV9lNzogNzI2NDAxMDI0Cn0KcmFkaXVzOiA3OTM1MTcxLjM1NTc2Mzc1ODUKcHJvdmVuYW5jZTogNgo=; SIDCC=AKEyXzUwoyG_jjR4jdf9Igm-kCe-ixT0zr6F7pWfDuwQRcxykphENNu515e_h4y7u9_7_X2Ow4Q"
+  },
+  {
+    "timestamp": "2025-02-27T10:34:34.141Z",
+    "type": "xhr",
+    "url": "https://www.google.com/async/bgasy?ei=uD_AZ7-RPMG8seMPg7vO-AU&opi=89978449&sca_esv=4808aced13c4ef62&yv=3&cs=1&async=_fmt:jspb",
+    "method": "GET",
+    "requestHeaders": {
+      "X-DoS-Behavior": "Embed"
+    },
+    "responseHeaders": {
+      "accept-ch": "Sec-CH-Prefers-Color-Scheme, Downlink, RTT, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version, Sec-CH-UA-Arch, Sec-CH-UA-Model, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "cache-control": "private",
+      "content-disposition": "attachment; filename=\"f.txt\"",
+      "content-encoding": "br",
+      "content-length": "6329",
+      "content-type": "application/json; charset=UTF-8",
+      "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"gws\"",
+      "date": "Thu, 27 Feb 2025 10:34:34 GMT",
+      "expires": "Thu, 27 Feb 2025 10:34:34 GMT",
+      "permissions-policy": "unload=()",
+      "report-to": "{\"group\":\"gws\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/gws/none\"}]}",
+      "server": "gws",
+      "strict-transport-security": "max-age=31536000",
+      "version": "730955951",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": "_ga=GA1.1.1328731002.1712321937; OTZ=7960579_34_34__34_; SID=g.a000uAjM-Q0wnrbCVPPzDYvoEtYXP5_ljyrKOAA9AiSVM0qunMHCAOsQOA_TJXPOQ-6rPlvf_QACgYKAWcSARASFQHGX2MiFjS7WlXDIpU66_nvvy0nFhoVAUF8yKrnuBVuvmvJ667tlBHLXjBN0076; APISID=0yNYNqoPk6qwSvzU/AqAgpSJhvZrKyv-EI; SAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-1PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-3PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; SEARCH_SAMESITE=CgQIsZ0B; DV=07_qo3BL6Ldc8JiFc16AWAZOw45vVFmXimc7DQWIhQAAAEBL1W1MikEpVgAAAOBRX6N8aZALVQAAALwkxYOqKaGkGQAAAA; UULE=a+cm9sZTogMQpwcm9kdWNlcjogMTIKdGltZXN0YW1wOiAxNzQwNjUyNDc0MDU5MDAwCmxhdGxuZyB7CiAgbGF0aXR1ZGVfZTc6IDIyOTk2NTgyNAogIGxvbmdpdHVkZV9lNzogNzI2NDAxMDI0Cn0KcmFkaXVzOiA3OTM1MTcxLjM1NTc2Mzc1ODUKcHJvdmVuYW5jZTogNgo=; SIDCC=AKEyXzXZ8-t4vvI3WHeRirEWFcggCIp_HzXqWzj-u7oZ5uYpLnVlumr236aaT4bi9OEPK0fLn9s"
+  },
+  {
+    "timestamp": "2025-02-27T10:34:29.504Z",
+    "type": "xhr",
+    "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+    "method": "POST",
+    "requestHeaders": {
+      "Authorization": "SAPISIDHASH 8a4351a5d95ec35e1c6a92c1b06452d2c911c5d3 SAPISID1PHASH 8a4351a5d95ec35e1c6a92c1b06452d2c911c5d3 SAPISID3PHASH 8a4351a5d95ec35e1c6a92c1b06452d2c911c5d3",
+      "X-Goog-AuthUser": "0",
+      "Content-Encoding": "gzip",
+      "Content-Type": "application/binary"
+    },
+    "responseHeaders": {
+      "cache-control": "private",
+      "content-length": "131",
+      "content-type": "text/plain; charset=UTF-8",
+      "expires": "Thu, 27 Feb 2025 10:34:29 GMT"
+    },
+    "body": "31,139,8,0,0,0,0,0,0,3,205,148,77,75,3,65,12,134,255,138,228,228,33,187,36,243,145,157,241,86,21,164,80,139,55,193,217,161,172,117,235,7,219,93,90,45,84,127,189,244,139,106,183,96,133,10,94,114,120,231,77,38,201,60,76,8,140,245,172,170,14,14,97,159,8,101,157,116,251,208,242,134,0,253,230,237,180,115,118,62,45,234,7,64,240,30,34,6,184,106,154,199,170,60,185,120,154,54,227,18,16,88,235,165,190,20,158,103,227,141,20,145,16,122,207,245,108,14,8,54,101,155,18,32,204,157,0,194,202,147,82,42,222,232,148,149,44,42,48,82,140,17,117,166,49,4,224,204,144,88,101,196,145,72,171,187,221,25,2,163,33,67,132,235,141,228,144,105,82,70,148,184,148,114,192,28,94,63,6,157,187,193,100,218,155,222,190,191,204,174,111,230,69,50,161,142,203,91,165,115,40,235,101,70,183,127,153,3,50,178,71,35,118,117,200,72,27,87,243,152,20,202,138,136,231,132,135,146,37,230,190,44,18,87,184,50,145,108,52,28,21,78,123,55,226,246,5,71,12,191,124,255,157,64,223,242,215,131,5,133,118,177,174,42,7,52,20,191,25,8,57,254,52,78,194,222,17,181,80,131,47,66,208,25,145,55,10,117,70,172,157,65,38,101,173,38,177,49,66,220,63,232,130,176,45,18,198,210,1,72,104,250,83,40,156,241,255,18,10,117,92,174,254,53,23,42,70,220,114,225,73,178,35,108,54,172,122,218,251,91,30,188,65,165,44,89,241,54,70,244,49,126,2,217,94,8,82,171,5,0,0",
+    "user": "Prince Jogani",
+    "cookies": "_ga=GA1.1.1328731002.1712321937; OTZ=7960579_34_34__34_; SID=g.a000uAjM-Q0wnrbCVPPzDYvoEtYXP5_ljyrKOAA9AiSVM0qunMHCAOsQOA_TJXPOQ-6rPlvf_QACgYKAWcSARASFQHGX2MiFjS7WlXDIpU66_nvvy0nFhoVAUF8yKrnuBVuvmvJ667tlBHLXjBN0076; APISID=0yNYNqoPk6qwSvzU/AqAgpSJhvZrKyv-EI; SAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-1PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-3PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; SEARCH_SAMESITE=CgQIsZ0B; DV=07_qo3BL6Ldc0KXi2U5DAWIRcY1vVBktVbcxKQal2AAAAPCYhXNegFgGzgAAAPCSFA-qpoSSOgAAAHjU1yhfGuRCEQAAAA; UULE=a+cm9sZTogMQpwcm9kdWNlcjogMTIKdGltZXN0YW1wOiAxNzQwNjUyNDY4MzMwMDAwCmxhdGxuZyB7CiAgbGF0aXR1ZGVfZTc6IDIyOTk2NTgyNAogIGxvbmdpdHVkZV9lNzogNzI2NDAxMDI0Cn0KcmFkaXVzOiA3OTM1MTcxLjM1NTc2Mzc1ODUKcHJvdmVuYW5jZTogNgo=; SIDCC=AKEyXzWWaE9Eyq8RVQM6FVVOFGqfMF78rd1FWI3IbRNzQFZXvVPxDHErGFU7p7GaO8u7a7A3gNU"
+  },
+  {
+    "timestamp": "2025-02-27T10:34:28.573Z",
+    "type": "xhr",
+    "url": "https://www.google.com/async/vpkg?vet=10ahUKEwj-2ZDg0-OLAxXUUGcHHXfcEDoQj5gNCCo..i&ei=sz_AZ760LNShnesP97jD0AM&opi=89978449&yv=3&cs=1&async=_basejs:%2Fxjs%2F_%2Fjs%2Fk%3Dxjs.s.en_GB.H_jEdogwsvE.2018.O%2Fam%3DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAARQAAKAAAAAAAAAAAAB_AwAAAAEAAAACQAAAAAAgAACgAAIGgAAEAEAAAAAACYAAAQCFgABBQAAAAAAAIAACAAAAEAgAsB-_-EAAAAAAAAAAAAAAAhAAgAAAAAAAHABACAAXyJ7QAAAAABAAAAAAAAIAAAAAAAIAAAAUAAAAAAAAAAAAAEAAAAAAAAEAAAAgAAAgD4AAAAAAAAAAAAAAACEAAAAAAAADQBQAAAB_AAAAAAAAAA4AAAAAAgQAACAf4KBkAAAAAAAAIA9ADweEA4pPAAAAAAAAAAAAAAAAIAAJAjmQPoLAhAAAAAAAAAAAAAAAAAAAABSBE1c3gCg%2Fdg%3D0%2Fbr%3D1%2Frs%3DACT90oGcIqKrwhmP4zNgob9LaVynK2K-Ow,_basecss:%2Fxjs%2F_%2Fss%2Fk%3Dxjs.s.ZMAhecB0Rlc.L.B1.O%2Fam%3DAOIQIAQAAAACAABACAAVAAQAAAAAAAAAAAAAAAAAAAAAAAAASAAAAIAAAQAAAAAAgAAAAAARAAAgmEkAAAAABCcE_Jw9AAAFAD4AgTgVAAAAAAAAgAAAGgAAEAAAAQABACSAAAAAFAAAAACBCAEAIICACYAACAAAAgAAAMLAAAAaAAAAAAKACAgCABAAGAgAHAEBIAEAACJwAAIAJgIBADAAAAAIAAAgAXgIhgEQVAAYwBFAAAAAIAIAAAAAAAgAEAIAgAEABQCAAAkAwA8AgMMGAJCEEAAgFAEACABQCAAIAAAAAQABAAAAQSAAAAAASgCAf4KBkAAAAAAAAAAkAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAABA%2Fbr%3D1%2Frs%3DACT90oEQwg_XbBxsU20Pwj-erWEsx0uJwg,_basecomb:%2Fxjs%2F_%2Fjs%2Fk%3Dxjs.s.en_GB.H_jEdogwsvE.2018.O%2Fck%3Dxjs.s.ZMAhecB0Rlc.L.B1.O%2Fam%3DAOIQIAQAAAACAABACAAVAAQAAAAAAAAAAAAAAAAAAAAAAAAASAAAAIAAAQAAAAAAgAAAAARRAAKgmEkAAAAABCcF_Jw9AAAFAD4AiTgVAAAAgAACgAAIGgAAEAEAAQABACaAAAQCFgABBQCBCAEAIICACYAACEAgAsB-_-PAAAAaAAAAAAKACAhCAhAAGAgAHHEBICEAXyJ7QAIAJgJBADAAAAAIAAAgAXgIhgEQVAAYwBFAAAAAIAMAAAAAAAgEEAIAgAEAhT6AAAkAwA8AgMMGAJCEEAAgFAEADQBQCAAJ_AAAAQABAAA4QSAAAAgQSgCAf4KBkAAAAAAAAIA9ADweEA4pPAAAAAAAAAAAAAAAAIAAJAjmQPoLAhAAAAAAAAAAAAAAAAAAAABSBE1c3gCg%2Fd%3D1%2Fed%3D1%2Fdg%3D0%2Fbr%3D1%2Fujg%3D1%2Frs%3DACT90oFKKKfpSblSpQnzoDtZ1RbWmvW2rA,_fmt:prog,_id:QPwIld",
+    "method": "GET",
+    "requestHeaders": {
+      "X-DoS-Behavior": "Embed"
+    },
+    "responseHeaders": {
+      "accept-ch": "Sec-CH-Prefers-Color-Scheme, Downlink, RTT, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version, Sec-CH-UA-Arch, Sec-CH-UA-Model, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "cache-control": "private,max-age=300",
+      "content-disposition": "attachment; filename=\"f.txt\"",
+      "content-encoding": "br",
+      "content-type": "text/plain; charset=UTF-8",
+      "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"gws\"",
+      "date": "Thu, 27 Feb 2025 10:34:28 GMT",
+      "expires": "Thu, 27 Feb 2025 10:34:28 GMT",
+      "permissions-policy": "unload=()",
+      "report-to": "{\"group\":\"gws\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/gws/none\"}]}",
+      "server": "gws",
+      "strict-transport-security": "max-age=31536000",
+      "version": "730955951",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": "_ga=GA1.1.1328731002.1712321937; OTZ=7960579_34_34__34_; SID=g.a000uAjM-Q0wnrbCVPPzDYvoEtYXP5_ljyrKOAA9AiSVM0qunMHCAOsQOA_TJXPOQ-6rPlvf_QACgYKAWcSARASFQHGX2MiFjS7WlXDIpU66_nvvy0nFhoVAUF8yKrnuBVuvmvJ667tlBHLXjBN0076; APISID=0yNYNqoPk6qwSvzU/AqAgpSJhvZrKyv-EI; SAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-1PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-3PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; SEARCH_SAMESITE=CgQIsZ0B; UULE=a+cm9sZTogMQpwcm9kdWNlcjogMTIKdGltZXN0YW1wOiAxNzQwNjM2MTA1NDQ5MDAwCmxhdGxuZyB7CiAgbGF0aXR1ZGVfZTc6IDIzMDYyMTE4NAogIGxvbmdpdHVkZV9lNzogNzI1NjE0NTkyCn0KcmFkaXVzOiA2NTU3MjQ5LjMwNzgwNDc3NQpwcm92ZW5hbmNlOiA2Cg==; DV=07_qo3BL6Ldc0KXi2U5DAWIRcY1vVBktVbcxKQal2AAAAPCYhXNegFgGzgAAAPCSFA-qpoSSOgAAAHjU1yhfGuRCEQAAAA; SIDCC=AKEyXzW1DG3TwlCnf3jM2kU8W8FfXH7X-PcON14mQ9KdXAbGn95Tq6t5SaWqBHbQEj8CtAj1IMc"
+  },
+  {
+    "timestamp": "2025-02-27T10:34:28.456Z",
+    "type": "xhr",
+    "url": "https://www.google.com/async/bgasy?ei=sz_AZ760LNShnesP97jD0AM&opi=89978449&yv=3&cs=1&async=_fmt:jspb",
+    "method": "GET",
+    "requestHeaders": {
+      "X-DoS-Behavior": "Embed"
+    },
+    "responseHeaders": {
+      "accept-ch": "Sec-CH-Prefers-Color-Scheme, Downlink, RTT, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version, Sec-CH-UA-Arch, Sec-CH-UA-Model, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "cache-control": "private",
+      "content-disposition": "attachment; filename=\"f.txt\"",
+      "content-encoding": "br",
+      "content-length": "6223",
+      "content-type": "application/json; charset=UTF-8",
+      "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"gws\"",
+      "date": "Thu, 27 Feb 2025 10:34:28 GMT",
+      "expires": "Thu, 27 Feb 2025 10:34:28 GMT",
+      "permissions-policy": "unload=()",
+      "report-to": "{\"group\":\"gws\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/gws/none\"}]}",
+      "server": "gws",
+      "strict-transport-security": "max-age=31536000",
+      "version": "730955951",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "0"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": "_ga=GA1.1.1328731002.1712321937; OTZ=7960579_34_34__34_; SID=g.a000uAjM-Q0wnrbCVPPzDYvoEtYXP5_ljyrKOAA9AiSVM0qunMHCAOsQOA_TJXPOQ-6rPlvf_QACgYKAWcSARASFQHGX2MiFjS7WlXDIpU66_nvvy0nFhoVAUF8yKrnuBVuvmvJ667tlBHLXjBN0076; APISID=0yNYNqoPk6qwSvzU/AqAgpSJhvZrKyv-EI; SAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-1PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; __Secure-3PAPISID=_hoaE7N_DBEHtgX6/AilFXSpx0o-CXqoTT; SEARCH_SAMESITE=CgQIsZ0B; UULE=a+cm9sZTogMQpwcm9kdWNlcjogMTIKdGltZXN0YW1wOiAxNzQwNjM2MTA1NDQ5MDAwCmxhdGxuZyB7CiAgbGF0aXR1ZGVfZTc6IDIzMDYyMTE4NAogIGxvbmdpdHVkZV9lNzogNzI1NjE0NTkyCn0KcmFkaXVzOiA2NTU3MjQ5LjMwNzgwNDc3NQpwcm92ZW5hbmNlOiA2Cg==; DV=07_qo3BL6Ldc0KXi2U5DAWIRcY1vVBktVbcxKQal2AAAAPCYhXNegFgGzgAAAPCSFA-qpoSSOgAAAHjU1yhfGuRCEQAAAA; SIDCC=AKEyXzWlq0e2CFNYJN3xWd2DgeAOZ77ExAViB140okISqMUNwC61tO9UskeVB3YeQ3QvGEEuNto"
+  },
+  {
+    "timestamp": "2025-02-27T10:17:33.178Z",
+    "type": "xhr",
+    "url": "https://pms.dddemo.net/projectmgtgetdata.php",
+    "method": "POST",
+    "requestHeaders": {
+      "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "Accept": "*/*",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "responseHeaders": {
+      "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+      "connection": "Keep-Alive",
+      "content-security-policy": "upgrade-insecure-requests;",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Thu, 27 Feb 2025 10:17:31 GMT",
+      "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+      "keep-alive": "timeout=5, max=100",
+      "pragma": "no-cache",
+      "server": "Apache/2.4.10 (Unix) OpenSSL/1.0.1j PHP/5.6.3 mod_perl/2.0.8-dev Perl/v5.16.3",
+      "transfer-encoding": "chunked",
+      "x-powered-by": "PHP/5.6.3"
+    },
+    "body": "id=4572&action=taskstartstopdetail",
+    "user": "Prince Jogani",
+    "cookies": "PHPSESSID=tt0h97ok18jnjmq8mbkt0s8902"
+  },
+  {
+    "timestamp": "2025-02-27T10:17:00.371Z",
+    "type": "xhr",
+    "url": "https://data.pendo.io/data/guide.json/0678af2a-df89-42a3-4abb-60978aa54814?id=10&jzb=eJyVkM1qwzAQhN9F5_hPsWPHt5SUEgoptKFXs5Y2iVpZMpKcEErePesW3NxKb0K738zsfLGT8ipYt5GsZos83fOci7zlc56VWBQVYJVJNmMghB1M-F778OdIzEVRlFBGS5mlUY7FMlqiLKKMEJFX-2pRpoQNThNwDKH3dZK0tmvh4o_KBR9D0OC9AhMbDEnr7NljUivvB3zGS0ImxFst338DmkHrGeswgIQArJ7Sj0_1xwUazGGAAza9wz06NAIJQNM8PdBUKt9ruDSdleO3VodjuIOmzetUxeT5jzrO1n36HgQ2BrpR9L4RmqNUQVlDg7fdarteva6bx_Vmt3nZjsY9UOqwmuzpi3oYZXiZpDzhKS9I5ITO_4jwmOdZnNLFVrLr9QYnrJse&v=2.241.0_prod&ct=1740651420039",
+    "method": "GET",
+    "requestHeaders": {},
+    "responseHeaders": {
+      "cache-control": "no-store",
+      "content-length": "360",
+      "content-type": "application/json"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": "ajs_anonymous_id=%225c536086-34a1-472f-9ac6-22efa96bb9b9%22; ajs_anonymous_id=%225c536086-34a1-472f-9ac6-22efa96bb9b9%22; atl-bsc-consent-token-fallback=0031111010; atlassian.xsrf.token=da42630bd3cb974c63f0c0a832aa7a1b42ff4773_lin; __awc_tld_test__=tld_test; __awc_tld_test__=tld_test; atl-bsc-consent-token=0031111010; atl-bsc-show-banner=0"
+  },
+  {
+    "timestamp": "2025-02-27T10:17:00.334Z",
+    "type": "xhr",
+    "url": "https://bombayshirts.atlassian.net/rest/webResources/1.0/resources",
+    "method": "POST",
+    "requestHeaders": {
+      "Content-Type": "application/json",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "responseHeaders": {
+      "atl-request-id": "2e569a67-96ab-4105-97d6-2c15cc4ba4d3",
+      "atl-traceid": "2e569a6796ab410597d62c15cc4ba4d3",
+      "cache-control": "no-cache, no-store, no-transform",
+      "content-encoding": "br",
+      "content-type": "application/json;charset=UTF-8",
+      "date": "Thu, 27 Feb 2025 10:17:00 GMT",
+      "server": "AtlassianEdge",
+      "server-timing": "cdn-cache-miss,cdn-pop;desc=\"BOM78-P1\",cdn-rid;desc=\"AL_oAio94WOw6pYxGtSD4N-rAU_DI8-2h5fJb1JRQIpOslEHJeoYTg==\",cdn-downstream-fbl;dur=218,cdn-upstream-layer;desc=\"EDGE\",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=0,cdn-upstream-fbl;dur=215,atl-edge;dur=154,atl-edge-internal;dur=15,atl-edge-upstream;dur=139,atl-edge-pop;desc=\"aws-ap-southeast-1\"",
+      "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+      "timing-allow-origin": "*",
+      "vary": "Accept-Encoding",
+      "via": "1.1 939ac72d2cac41d9a569cd07d056cb64.cloudfront.net (CloudFront)",
+      "x-aaccountid": "640f242c4b23217e558ae81d",
+      "x-amz-cf-id": "AL_oAio94WOw6pYxGtSD4N-rAU_DI8-2h5fJb1JRQIpOslEHJeoYTg==",
+      "x-amz-cf-pop": "BOM78-P1",
+      "x-arequestid": "c7a00d233d1940a5d57688e133a727f3",
+      "x-cache": "Miss from cloudfront",
+      "x-content-type-options": "nosniff",
+      "x-xss-protection": "1; mode=block"
+    },
+    "body": "{\"r\":[],\"c\":[\"jira.webresources:skate\",\"jira.webresources:util-lite\",\"jira.webresources:util\",\"jira.webresources:feature-flags\",\"jira.webresources:dialogs\",\"jira.webresources:jira-global\",\"com.atlassian.auiplugin:aui-spinner\",\"com.atlassian.jira.jira-client-analytics-plugin:analytics-web-client\",\"jira.webresources:key-commands\",\"jira.webresources:header\",\"com.atlassian.administration.atlassian-admin-quicksearch-jira:admin-quicksearch-webresources\",\"com.atlassian.jira.jira-atlaskit-plugin:overrides-general\",\"com.atlassian.jira.jira-atlaskit-plugin:overrides-dialogs\",\"jira.webresources:global-static\",\"com.atlassian.jira.plugins.jira-browser-metrics:contrib\",\"com.atlassian.plugins.browser.metrics.browser-metrics-plugin:impl\",\"com.atlassian.plugins.browser.metrics.browser-metrics-plugin:api\",\"com.atlassian.jira.plugins.jira-development-integration-plugin:repository-shortcuts-navigation-next\",\"com.atlassian.jira.plugins.jira-development-integration-plugin:devsummarycf-resources-init\",\"com.pyxis.greenhopper.jira:gh-create-board-adg3-no-condition\",\"com.atlassian.analytics.analytics-client:js-events\",\"com.atlassian.jira.jira-atlaskit-plugin:global-cache\",\"com.atlassian.crowd.user-provisioning-vertigo-plugin:impersonation-resources\",\"jira.webresources:spam-protection-flags\",\"com.atlassian.pas:pas-everypage-static\",\"com.atlassian.jira.jira-fileviewer-plugin:fileviewer\",\"com.atlassian.auiplugin:dialog2\",\"com.atlassian.jira.jira-fileviewer-plugin:atlassian-fileviewer\",\"com.atlassian.jira.jira-issue-nav-plugin:stylesheets\",\"com.atlassian.jira.jira-quick-edit-plugin:quick-create-issue\",\"jira.create.issue\",\"jira.webresources:calendar-en\",\"com.atlassian.jira.plugins.jira-dnd-attachment-plugin:shared-utility\",\"com.pyxis.greenhopper.jira:gh-issue-type-whitelist\",\"com.atlassian.jira.plugins.jira-wiki-editor:wiki-editor-resources-init\",\"com.pyxis.greenhopper.jira:gh-view-issue\",\"com.pyxis.greenhopper.jira:gh-custom-field-pickers\",\"com.atlassian.jira.jira-atlaskit-plugin:sidebar\"],\"xc\":[\"jira.heritage.critical\"],\"xr\":[]}",
+    "user": "Prince Jogani",
+    "cookies": "ajs_anonymous_id=%225c536086-34a1-472f-9ac6-22efa96bb9b9%22; ajs_anonymous_id=%225c536086-34a1-472f-9ac6-22efa96bb9b9%22; atl-bsc-consent-token-fallback=0031111010; atlassian.xsrf.token=da42630bd3cb974c63f0c0a832aa7a1b42ff4773_lin; __awc_tld_test__=tld_test; __awc_tld_test__=tld_test; atl-bsc-consent-token=0031111010; atl-bsc-show-banner=0"
+  },
+  {
+    "timestamp": "2025-02-27T10:16:59.398Z",
+    "type": "xhr",
+    "url": "https://data.pendo.io/data/guide.json/0678af2a-df89-42a3-4abb-60978aa54814?id=10&jzb=eJyVkM1qwzAQhN9F5_hPsWPHt5SUEgoptKFXs5Y2iVpZMpKcEErePesW3NxKb0K738zsfLGT8ipYt5GsZos83fOci7zlc56VWBQVYJVJNmMghB1M-F778OdIzEVRlFBGS5mlUY7FMlqiLKKMEJFX-2pRpoQNThNwDKH3dZK0tmvh4o_KBR9D0OC9AhMbDEnr7NljUivvB3zGS0ImxFst338DmkHrGeswgIQArJ7Sj0_1xwUazGGAAza9wz06NAIJQNM8PdBUKt9ruDSdleO3VodjuIOmzetUxeT5jzrO1n36HgQ2BrpR9L4RmqNUQVlDg7fdarteva6bx_Vmt3nZjsY9UOqwmuzpi3oYZXiZpDzhKS9I5ITO_4jwmOdZnNLFVrLr9QYnrJse&v=2.241.0_prod&ct=1740651419066",
+    "method": "GET",
+    "requestHeaders": {},
+    "responseHeaders": {
+      "cache-control": "no-store",
+      "content-length": "360",
+      "content-type": "application/json"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": "ajs_anonymous_id=%225c536086-34a1-472f-9ac6-22efa96bb9b9%22; ajs_anonymous_id=%225c536086-34a1-472f-9ac6-22efa96bb9b9%22; atl-bsc-consent-token-fallback=0031111010; atlassian.xsrf.token=da42630bd3cb974c63f0c0a832aa7a1b42ff4773_lin; __awc_tld_test__=tld_test; __awc_tld_test__=tld_test; atl-bsc-consent-token=0031111010; atl-bsc-show-banner=0"
+  },
+  {
+    "timestamp": "2025-02-27T10:16:59.310Z",
+    "type": "xhr",
+    "url": "https://bombayshirts.atlassian.net/rest/webResources/1.0/resources",
+    "method": "POST",
+    "requestHeaders": {
+      "Content-Type": "application/json",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "responseHeaders": {
+      "atl-request-id": "765db032-404b-4042-bd46-d1f13ce229f7",
+      "atl-traceid": "765db032404b4042bd46d1f13ce229f7",
+      "cache-control": "no-cache, no-store, no-transform",
+      "content-encoding": "br",
+      "content-type": "application/json;charset=UTF-8",
+      "date": "Thu, 27 Feb 2025 10:16:59 GMT",
+      "server": "AtlassianEdge",
+      "server-timing": "cdn-cache-miss,cdn-pop;desc=\"BOM78-P1\",cdn-rid;desc=\"yq-WJ2IyJD73PqX4sko31AGPPOMYF5m1qdS2seTNOhSz_Woin7cAlA==\",cdn-downstream-fbl;dur=178,cdn-upstream-layer;desc=\"EDGE\",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=0,cdn-upstream-fbl;dur=176,atl-edge;dur=108,atl-edge-internal;dur=14,atl-edge-upstream;dur=94,atl-edge-pop;desc=\"aws-ap-southeast-1\"",
+      "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+      "timing-allow-origin": "*",
+      "vary": "Accept-Encoding",
+      "via": "1.1 939ac72d2cac41d9a569cd07d056cb64.cloudfront.net (CloudFront)",
+      "x-aaccountid": "640f242c4b23217e558ae81d",
+      "x-amz-cf-id": "yq-WJ2IyJD73PqX4sko31AGPPOMYF5m1qdS2seTNOhSz_Woin7cAlA==",
+      "x-amz-cf-pop": "BOM78-P1",
+      "x-arequestid": "dfa8ebcbe299ca3b7c2eee663614b730",
+      "x-cache": "Miss from cloudfront",
+      "x-content-type-options": "nosniff",
+      "x-xss-protection": "1; mode=block"
+    },
+    "body": "{\"r\":[],\"c\":[\"jira.webresources:skate\",\"jira.webresources:util-lite\",\"jira.webresources:util\",\"jira.webresources:feature-flags\",\"jira.webresources:dialogs\",\"jira.webresources:jira-global\",\"com.atlassian.auiplugin:aui-spinner\",\"com.atlassian.jira.jira-client-analytics-plugin:analytics-web-client\",\"jira.webresources:key-commands\",\"jira.webresources:header\",\"com.atlassian.administration.atlassian-admin-quicksearch-jira:admin-quicksearch-webresources\",\"com.atlassian.jira.jira-atlaskit-plugin:overrides-general\",\"com.atlassian.jira.jira-atlaskit-plugin:overrides-dialogs\",\"jira.webresources:global-static\",\"com.atlassian.jira.plugins.jira-browser-metrics:contrib\",\"com.atlassian.plugins.browser.metrics.browser-metrics-plugin:impl\",\"com.atlassian.plugins.browser.metrics.browser-metrics-plugin:api\",\"com.atlassian.jira.plugins.jira-development-integration-plugin:repository-shortcuts-navigation-next\",\"com.atlassian.jira.plugins.jira-development-integration-plugin:devsummarycf-resources-init\",\"com.pyxis.greenhopper.jira:gh-create-board-adg3-no-condition\",\"com.atlassian.analytics.analytics-client:js-events\",\"com.atlassian.jira.jira-atlaskit-plugin:global-cache\",\"com.atlassian.crowd.user-provisioning-vertigo-plugin:impersonation-resources\",\"jira.webresources:spam-protection-flags\",\"com.atlassian.pas:pas-everypage-static\",\"com.atlassian.jira.jira-fileviewer-plugin:fileviewer\",\"com.atlassian.auiplugin:dialog2\",\"com.atlassian.jira.jira-fileviewer-plugin:atlassian-fileviewer\",\"com.atlassian.jira.jira-issue-nav-plugin:stylesheets\",\"com.atlassian.jira.jira-quick-edit-plugin:quick-create-issue\",\"jira.create.issue\",\"jira.webresources:calendar-en\",\"com.atlassian.jira.plugins.jira-dnd-attachment-plugin:shared-utility\",\"com.pyxis.greenhopper.jira:gh-issue-type-whitelist\",\"com.atlassian.jira.plugins.jira-wiki-editor:wiki-editor-resources-init\",\"com.pyxis.greenhopper.jira:gh-view-issue\",\"com.pyxis.greenhopper.jira:gh-custom-field-pickers\",\"com.atlassian.jira.jira-atlaskit-plugin:sidebar\"],\"xc\":[\"jira.heritage.critical\"],\"xr\":[]}",
+    "user": "Prince Jogani",
+    "cookies": "ajs_anonymous_id=%225c536086-34a1-472f-9ac6-22efa96bb9b9%22; ajs_anonymous_id=%225c536086-34a1-472f-9ac6-22efa96bb9b9%22; atl-bsc-consent-token-fallback=0031111010; atlassian.xsrf.token=da42630bd3cb974c63f0c0a832aa7a1b42ff4773_lin; __awc_tld_test__=tld_test; __awc_tld_test__=tld_test; atl-bsc-consent-token=0031111010; atl-bsc-show-banner=0"
+  },
+  {
+    "timestamp": "2025-02-27T10:16:44.682Z",
+    "type": "xhr",
+    "url": "https://bombayshirts.atlassian.net/rest/pas/latest/announcement?_=1740651404288",
+    "method": "GET",
+    "requestHeaders": {
+      "Content-Type": "application/json",
+      "Accept": "*/*",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "responseHeaders": {
+      "atl-request-id": "68d9011b-84f1-4cb2-9184-cf61c6bf592c",
+      "atl-traceid": "68d9011b84f14cb29184cf61c6bf592c",
+      "cache-control": "no-cache, no-store, no-transform",
+      "content-encoding": "br",
+      "content-type": "text/html;charset=UTF-8",
+      "date": "Thu, 27 Feb 2025 10:16:44 GMT",
+      "server": "AtlassianEdge",
+      "server-timing": "cdn-cache-miss,cdn-pop;desc=\"BOM78-P1\",cdn-rid;desc=\"JlfGm53y7HZ1Ji-NCBP6-tj81eT1CFAR862HrfyAjETVbU-us6zoBQ==\",cdn-downstream-fbl;dur=162,cdn-upstream-layer;desc=\"EDGE\",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=0,cdn-upstream-fbl;dur=160,atl-edge;dur=94,atl-edge-internal;dur=14,atl-edge-upstream;dur=80,atl-edge-pop;desc=\"aws-ap-southeast-1\"",
+      "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+      "timing-allow-origin": "*",
+      "vary": "Accept-Encoding",
+      "via": "1.1 939ac72d2cac41d9a569cd07d056cb64.cloudfront.net (CloudFront)",
+      "x-aaccountid": "640f242c4b23217e558ae81d",
+      "x-amz-cf-id": "JlfGm53y7HZ1Ji-NCBP6-tj81eT1CFAR862HrfyAjETVbU-us6zoBQ==",
+      "x-amz-cf-pop": "BOM78-P1",
+      "x-arequestid": "afd409e62383a3ec2a0d6bf97505dbac",
+      "x-cache": "Miss from cloudfront",
+      "x-content-type-options": "nosniff",
+      "x-xss-protection": "1; mode=block"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": "ajs_anonymous_id=%225c536086-34a1-472f-9ac6-22efa96bb9b9%22; ajs_anonymous_id=%225c536086-34a1-472f-9ac6-22efa96bb9b9%22; atl-bsc-consent-token-fallback=0031111010; atlassian.xsrf.token=da42630bd3cb974c63f0c0a832aa7a1b42ff4773_lin; __awc_tld_test__=tld_test; __awc_tld_test__=tld_test; atl-bsc-consent-token=0031111010; atl-bsc-show-banner=0"
+  },
+  {
+    "timestamp": "2025-02-27T10:16:43.902Z",
+    "type": "xhr",
+    "url": "https://data.pendo.io/data/guide.json/0678af2a-df89-42a3-4abb-60978aa54814?id=10&jzb=eJyVkM1qwzAQhN9F5_hPsWPHt5SUEgoptKFXs5Y2iVpZMpKcEErePesW3NxKb0K738zsfLGT8ipYt5GsZos83fOci7zlc56VWBQVYJVJNmMghB1M-F778OdIzEVRlFBGS5mlUY7FMlqiLKKMEJFX-2pRpoQNThNwDKH3dZK0tmvh4o_KBR9D0OC9AhMbDEnr7NljUivvB3zGS0ImxFst338DmkHrGeswgIQArJ7Sj0_1xwUazGGAAza9wz06NAIJQNM8PdBUKt9ruDSdleO3VodjuIOmzetUxeT5jzrO1n36HgQ2BrpR9L4RmqNUQVlDg7fdarteva6bx_Vmt3nZjsY9UOqwmuzpi3oYZXiZpDzhKS9I5ITO_4jwmOdZnNLFVrLr9QYnrJse&v=2.241.0_prod&ct=1740651403107",
+    "method": "GET",
+    "requestHeaders": {},
+    "responseHeaders": {
+      "cache-control": "no-store",
+      "content-length": "360",
+      "content-type": "application/json"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": "ajs_anonymous_id=%225c536086-34a1-472f-9ac6-22efa96bb9b9%22; ajs_anonymous_id=%225c536086-34a1-472f-9ac6-22efa96bb9b9%22; atl-bsc-consent-token-fallback=0031111010; atlassian.xsrf.token=da42630bd3cb974c63f0c0a832aa7a1b42ff4773_lin; __awc_tld_test__=tld_test; __awc_tld_test__=tld_test; atl-bsc-consent-token=0031111010; atl-bsc-show-banner=0"
+  },
+  {
+    "timestamp": "2025-02-27T10:16:43.896Z",
+    "type": "xhr",
+    "url": "https://data.pendo.io/data/guide.gif/0678af2a-df89-42a3-4abb-60978aa54814?jzb=eJwFwIEIAAAAwDDQd3-N1QABFQC5&ct=1740651403108&v=2.241.0_prod",
+    "method": "GET",
+    "requestHeaders": {},
+    "responseHeaders": {
+      "cache-control": "no-store",
+      "content-length": "42",
+      "content-type": "image/gif"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": "ajs_anonymous_id=%225c536086-34a1-472f-9ac6-22efa96bb9b9%22; ajs_anonymous_id=%225c536086-34a1-472f-9ac6-22efa96bb9b9%22; atl-bsc-consent-token-fallback=0031111010; atlassian.xsrf.token=da42630bd3cb974c63f0c0a832aa7a1b42ff4773_lin; __awc_tld_test__=tld_test; __awc_tld_test__=tld_test; atl-bsc-consent-token=0031111010; atl-bsc-show-banner=0"
+  },
+  {
+    "timestamp": "2025-02-27T10:16:43.394Z",
+    "type": "xhr",
+    "url": "https://bombayshirts.atlassian.net/rest/webResources/1.0/resources",
+    "method": "POST",
+    "requestHeaders": {
+      "Content-Type": "application/json",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "responseHeaders": {
+      "atl-request-id": "5ed6112b-a6e9-46f3-8189-1414d28bc0e0",
+      "atl-traceid": "5ed6112ba6e946f381891414d28bc0e0",
+      "cache-control": "no-cache, no-store, no-transform",
+      "content-encoding": "br",
+      "content-type": "application/json;charset=UTF-8",
+      "date": "Thu, 27 Feb 2025 10:16:43 GMT",
+      "server": "AtlassianEdge",
+      "server-timing": "cdn-cache-miss,cdn-pop;desc=\"BOM78-P1\",cdn-rid;desc=\"uyqIkSYVhtktyOtAdHoCKZW9ox1MNflnPwQqwI3E1eK8g3PSE-EhJg==\",cdn-downstream-fbl;dur=215,cdn-upstream-layer;desc=\"EDGE\",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=0,cdn-upstream-fbl;dur=213,atl-edge;dur=148,atl-edge-internal;dur=16,atl-edge-upstream;dur=133,atl-edge-pop;desc=\"aws-ap-southeast-1\"",
+      "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+      "timing-allow-origin": "*",
+      "vary": "Accept-Encoding",
+      "via": "1.1 939ac72d2cac41d9a569cd07d056cb64.cloudfront.net (CloudFront)",
+      "x-aaccountid": "640f242c4b23217e558ae81d",
+      "x-amz-cf-id": "uyqIkSYVhtktyOtAdHoCKZW9ox1MNflnPwQqwI3E1eK8g3PSE-EhJg==",
+      "x-amz-cf-pop": "BOM78-P1",
+      "x-arequestid": "1230a426fa034c5b21bc8de23d307111",
+      "x-cache": "Miss from cloudfront",
+      "x-content-type-options": "nosniff",
+      "x-xss-protection": "1; mode=block"
+    },
+    "body": "{\"r\":[],\"c\":[\"jira.webresources:skate\",\"jira.webresources:util-lite\",\"jira.webresources:util\",\"jira.webresources:feature-flags\",\"jira.webresources:dialogs\",\"jira.webresources:jira-global\",\"com.atlassian.auiplugin:aui-spinner\",\"com.atlassian.jira.jira-client-analytics-plugin:analytics-web-client\",\"jira.webresources:key-commands\",\"jira.webresources:header\",\"com.atlassian.administration.atlassian-admin-quicksearch-jira:admin-quicksearch-webresources\",\"com.atlassian.jira.jira-atlaskit-plugin:overrides-general\",\"com.atlassian.jira.jira-atlaskit-plugin:overrides-dialogs\",\"jira.webresources:global-static\",\"com.atlassian.jira.plugins.jira-browser-metrics:contrib\",\"com.atlassian.plugins.browser.metrics.browser-metrics-plugin:impl\",\"com.atlassian.plugins.browser.metrics.browser-metrics-plugin:api\",\"com.atlassian.jira.plugins.jira-development-integration-plugin:repository-shortcuts-navigation-next\",\"com.atlassian.jira.plugins.jira-development-integration-plugin:devsummarycf-resources-init\",\"com.pyxis.greenhopper.jira:gh-create-board-adg3-no-condition\",\"com.atlassian.analytics.analytics-client:js-events\",\"com.atlassian.jira.jira-atlaskit-plugin:global-cache\",\"com.atlassian.crowd.user-provisioning-vertigo-plugin:impersonation-resources\",\"jira.webresources:spam-protection-flags\",\"com.atlassian.pas:pas-everypage-static\",\"com.atlassian.jira.jira-fileviewer-plugin:fileviewer\",\"com.atlassian.auiplugin:dialog2\",\"com.atlassian.jira.jira-fileviewer-plugin:atlassian-fileviewer\",\"com.atlassian.jira.jira-issue-nav-plugin:stylesheets\",\"com.atlassian.jira.jira-quick-edit-plugin:quick-create-issue\",\"jira.create.issue\",\"jira.webresources:calendar-en\",\"com.atlassian.jira.plugins.jira-dnd-attachment-plugin:shared-utility\",\"com.pyxis.greenhopper.jira:gh-issue-type-whitelist\",\"com.atlassian.jira.plugins.jira-wiki-editor:wiki-editor-resources-init\",\"com.pyxis.greenhopper.jira:gh-view-issue\",\"com.pyxis.greenhopper.jira:gh-custom-field-pickers\",\"com.atlassian.jira.jira-atlaskit-plugin:sidebar\"],\"xc\":[\"jira.heritage.critical\"],\"xr\":[]}",
+    "user": "Prince Jogani",
+    "cookies": "ajs_anonymous_id=%225c536086-34a1-472f-9ac6-22efa96bb9b9%22; ajs_anonymous_id=%225c536086-34a1-472f-9ac6-22efa96bb9b9%22; atl-bsc-consent-token-fallback=0031111010; atlassian.xsrf.token=da42630bd3cb974c63f0c0a832aa7a1b42ff4773_lin; __awc_tld_test__=tld_test; __awc_tld_test__=tld_test; atl-bsc-consent-token=0031111010; atl-bsc-show-banner=0"
+  },
+  {
+    "timestamp": "2025-02-27T10:16:29.845Z",
+    "type": "xhr",
+    "url": "https://pms.dddemo.net/getdatatask.php",
+    "method": "POST",
+    "requestHeaders": {
+      "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "Accept": "*/*",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "responseHeaders": {
+      "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+      "connection": "Keep-Alive",
+      "content-length": "111",
+      "content-security-policy": "upgrade-insecure-requests;",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Thu, 27 Feb 2025 10:16:29 GMT",
+      "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+      "keep-alive": "timeout=5, max=97",
+      "pragma": "no-cache",
+      "server": "Apache/2.4.10 (Unix) OpenSSL/1.0.1j PHP/5.6.3 mod_perl/2.0.8-dev Perl/v5.16.3",
+      "x-powered-by": "PHP/5.6.3"
+    },
+    "body": "projectid=248&moduleid=246&action=listtaskforassigntask",
+    "user": "Prince Jogani",
+    "cookies": "PHPSESSID=tt0h97ok18jnjmq8mbkt0s8902"
+  },
+  {
+    "timestamp": "2025-02-27T10:16:27.040Z",
+    "type": "xhr",
+    "url": "https://pms.dddemo.net/getdatatask.php",
+    "method": "POST",
+    "requestHeaders": {
+      "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "Accept": "*/*",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "responseHeaders": {
+      "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+      "connection": "Keep-Alive",
+      "content-length": "111",
+      "content-security-policy": "upgrade-insecure-requests;",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Thu, 27 Feb 2025 10:16:25 GMT",
+      "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+      "keep-alive": "timeout=5, max=96",
+      "pragma": "no-cache",
+      "server": "Apache/2.4.10 (Unix) OpenSSL/1.0.1j PHP/5.6.3 mod_perl/2.0.8-dev Perl/v5.16.3",
+      "x-powered-by": "PHP/5.6.3"
+    },
+    "body": "projectid=248&moduleid=246&action=listtaskforassigntask",
+    "user": "Prince Jogani",
+    "cookies": "PHPSESSID=tt0h97ok18jnjmq8mbkt0s8902"
+  },
+  {
+    "timestamp": "2025-02-27T10:16:26.937Z",
+    "type": "xhr",
+    "url": "https://uat.bombayshirts.com/inventory?allResults=true&productIds=1337,1336,1244,1244,1322,1320,1320,1173,1173,1278,1314,1285,1285,1285,1336,1336,1336,1330,1322,1301,&showLoader=false",
+    "method": "GET",
+    "requestHeaders": {
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Origin": "*",
+      "accessToken": "eyJraWQiOiJUTEh0T1JVdnhBVks0YmViRlQyTmJoT2l3MGxFXC9kczRGeGVRQjk1OGppdz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5M2MwZWRmYi1hNzAzLTQyNzAtODljNC0zMjU3ZjI5OGE0MTMiLCJjb2duaXRvOmdyb3VwcyI6WyJVU0FfT25saW5lIiwiRHViYWlfT25saW5lIiwiU3VwZXJfQWRtaW4iLCJLYWxhZ2hvZGEiLCJCYW5kcmEiLCJJbmRpYV9PbmxpbmUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9iTWdJT0tkNFgiLCJjbGllbnRfaWQiOiI0dnBzYnZpNmtzZWtzcHUxZzF0dGo5YTI3YyIsImV2ZW50X2lkIjoiYTg5YjYyMGQtNTQyYS00YTY0LWJlZjAtNDFmYTVkYjRhMjgxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MDQ4NjI2NSwiZXhwIjoxNzQwNjUxNDgyLCJpYXQiOjE3NDA2NDc4ODIsImp0aSI6ImVkY2E1ZWNjLWNiMDAtNDcyMy04ZTM3LTg5YzZjZjYzN2FjMCIsInVzZXJuYW1lIjoiOTNjMGVkZmItYTcwMy00MjcwLTg5YzQtMzI1N2YyOThhNDEzIn0.j1oJhAgmaNDhGx5hDj-KR2qrfRdiYgLxR0rBOM-v58hPG2GmP5Cc_P6DNmJS5ULyt1IZotLPz80kNbhMq2I1A-vuVV5b1fQHaI_uTS9bcAXEYAxH7Brj1Ciftys9YZ3QCl7_8zwvzHpH7o76nMxYh91wTfQPqq7Q0jd4zrncFZ-TZboa2fclWgpVLbrgi1vDJt88-Y7NWqfMcET0J5p-JQceqzlH41TvPCKcILrRT5wpFIx7hh3HqL8hX0bHpjFjP9SwdXSDZcnWJ35s9loxCwAfbGEfwE6ZSN2grFuUVk7LQ41QGm7H4CvNtwbBu5Ux4ElXb0JeE5k-up-qAmvlFQ",
+      "Accept": "application/json, text/plain, */*"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": ""
+  },
+  {
+    "timestamp": "2025-02-27T10:09:55.287Z",
+    "type": "xhr",
+    "url": "https://uat.bombayshirts.com/inventory?allResults=true&productIds=1337,1336,1244,1244,1322,1320,1320,1173,1173,1278,1314,1285,1285,1285,1336,1336,1336,1330,1322,1301,&showLoader=false",
+    "method": "GET",
+    "requestHeaders": {
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Origin": "*",
+      "accessToken": "eyJraWQiOiJUTEh0T1JVdnhBVks0YmViRlQyTmJoT2l3MGxFXC9kczRGeGVRQjk1OGppdz0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI5M2MwZWRmYi1hNzAzLTQyNzAtODljNC0zMjU3ZjI5OGE0MTMiLCJjb2duaXRvOmdyb3VwcyI6WyJVU0FfT25saW5lIiwiRHViYWlfT25saW5lIiwiU3VwZXJfQWRtaW4iLCJLYWxhZ2hvZGEiLCJCYW5kcmEiLCJJbmRpYV9PbmxpbmUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV9iTWdJT0tkNFgiLCJjbGllbnRfaWQiOiI0dnBzYnZpNmtzZWtzcHUxZzF0dGo5YTI3YyIsImV2ZW50X2lkIjoiYTg5YjYyMGQtNTQyYS00YTY0LWJlZjAtNDFmYTVkYjRhMjgxIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImF1dGhfdGltZSI6MTc0MDQ4NjI2NSwiZXhwIjoxNzQwNjUxNDgyLCJpYXQiOjE3NDA2NDc4ODIsImp0aSI6ImVkY2E1ZWNjLWNiMDAtNDcyMy04ZTM3LTg5YzZjZjYzN2FjMCIsInVzZXJuYW1lIjoiOTNjMGVkZmItYTcwMy00MjcwLTg5YzQtMzI1N2YyOThhNDEzIn0.j1oJhAgmaNDhGx5hDj-KR2qrfRdiYgLxR0rBOM-v58hPG2GmP5Cc_P6DNmJS5ULyt1IZotLPz80kNbhMq2I1A-vuVV5b1fQHaI_uTS9bcAXEYAxH7Brj1Ciftys9YZ3QCl7_8zwvzHpH7o76nMxYh91wTfQPqq7Q0jd4zrncFZ-TZboa2fclWgpVLbrgi1vDJt88-Y7NWqfMcET0J5p-JQceqzlH41TvPCKcILrRT5wpFIx7hh3HqL8hX0bHpjFjP9SwdXSDZcnWJ35s9loxCwAfbGEfwE6ZSN2grFuUVk7LQ41QGm7H4CvNtwbBu5Ux4ElXb0JeE5k-up-qAmvlFQ",
+      "Accept": "application/json, text/plain, */*"
+    },
+    "responseHeaders": {
+      "content-type": "application/json"
+    },
+    "body": null,
+    "user": "Prince Jogani",
+    "cookies": ""
+  }
+]

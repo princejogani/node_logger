@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logs</title>
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background: #f4f4f4;
+        }
+
+        .detail-btn {
+            cursor: pointer;
+            color: blue;
+            text-decoration: underline;
+        }
+
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60%;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            border-radius: 5px;
+        }
+
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+        }
+
+        .close-btn {
+            cursor: pointer;
+            color: red;
+            font-size: 20px;
+        }
+
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            max-height: 300px;
+            overflow-x: auto;
+        }
+
+        /* Filter Section */
+        .filter-container {
+            margin-bottom: 10px;
+        }
+
+        .filter-container label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .filter-container select {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Network Logs</h1>
+
+    <!-- Filter by User -->
+    <div class="filter-container">
+        <label for="userFilter">Filter by User:</label>
+        <select id="userFilter" onchange="applyFilter()">
+            <option value="">All Users</option>
+        </select>
+    </div>
+
+    <div style="overflow: auto;">
+        <table>
+            <thead>
+                <tr>
+                    <th>Timestamp</th>
+                    <th>Type</th>
+                    <th>Method</th>
+                    <th>URL</th>
+                    <th>User</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="logTableBody">
+                <tr>
+                    <td colspan="6">Waiting for logs...</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <!-- Modal for Log Details -->
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal" id="logModal">
+        <div class="modal-header">
+            <span>Log Details</span>
+            <span class="close-btn" onclick="closeModal()">×</span>
+        </div>
+        <pre id="logDetails"></pre>
+    </div>
+
+    <script>
+        const socket = io("http://localhost:4000");
+        const logTableBody = document.getElementById("logTableBody");
+        const modal = document.getElementById("logModal");
+        const modalOverlay = document.getElementById("modalOverlay");
+        const logDetails = document.getElementById("logDetails");
+        const userFilter = document.getElementById("userFilter");
+
+        let logsData = [];
+
+        // Function to generate cURL command
+        function generateCurl(log) {
+            let curl = `curl -X ${log.method} '${log.url}'`;
+
+            if (log.requestHeaders) {
+                for (let key in log.requestHeaders) {
+                    curl += ` -H '${key}: ${log.requestHeaders[key]}'`;
+                }
+            }
+
+            if (log.body) {
+                curl += ` --data '${log.body}'`;
+            }
+
+            return curl;
+        }
+
+        // Function to display logs in the table
+        function displayLogs(logs) {
+            logTableBody.innerHTML = ""; // Clear existing logs
+
+            logs.forEach((log, index) => {
+                const row = document.createElement("tr");
+                row.innerHTML = `
+                    <td>${new Date(log.timestamp).toLocaleString()}</td>
+                    <td>${log.type}</td>
+                    <td>${log.method}</td>
+                    <td>${log.url}</td>
+                    <td>${log.user}</td>
+                    <td><span class="detail-btn" onclick="openModal(${index})">Detail View</span></td>
+                `;
+                logTableBody.appendChild(row);
+            });
+        }
+
+        // Function to apply user filter
+        function applyFilter() {
+            const selectedUser = userFilter.value;
+            const filteredLogs = selectedUser ? logsData.filter(log => log.user === selectedUser) : logsData;
+            displayLogs(filteredLogs);
+        }
+
+        // Function to update user filter dropdown
+        function updateUserFilterOptions() {
+            const users = [...new Set(logsData.map(log => log.user))];
+            userFilter.innerHTML = `<option value="">All Users</option>`;
+            users.forEach(user => {
+                userFilter.innerHTML += `<option value="${user}">${user}</option>`;
+            });
+        }
+
+        // Function to open the modal with log details
+        function openModal(index) {
+            const log = logsData[index];
+            logDetails.innerHTML = `
+<strong>Timestamp:</strong> ${new Date(log.timestamp).toLocaleString()}<br>
+<strong>Type:</strong> ${log.type}<br>
+<strong>Method:</strong> ${log.method}<br>
+<strong>URL:</strong> ${log.url}<br>
+<strong>Request Headers:</strong> ${JSON.stringify(log.requestHeaders, null, 2)}<br>
+<strong>Response Headers:</strong> ${JSON.stringify(log.responseHeaders, null, 2)}<br>
+<strong>Body:</strong> ${log.body ? JSON.stringify(log.body, null, 2) : "N/A"}<br>
+<strong>Cookies:</strong> ${log.cookies ? JSON.stringify(log.cookies, null, 2) : "N/A"}<br>
+<strong>Generated cURL:</strong><br>
+<pre>${generateCurl(log)}</pre>
+            `;
+            modal.style.display = "block";
+            modalOverlay.style.display = "block";
+        }
+
+        // Function to close the modal
+        function closeModal() {
+            modal.style.display = "none";
+            modalOverlay.style.display = "none";
+        }
+
+        // Receive previous logs on connection
+        socket.on("previousLogs", (logs) => {
+            logsData = logs;
+            displayLogs(logsData);
+            updateUserFilterOptions();
+        });
+
+        // Listen for new logs in real time
+        socket.on("newLog", (log) => {
+            logsData.unshift(log);
+            displayLogs(logsData);
+            updateUserFilterOptions();
+        });
+
+    </script>
+</body>
+
+</html>
