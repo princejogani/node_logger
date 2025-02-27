@@ -24,7 +24,7 @@
             //     data: JSON.stringify(log),
             // });
             if (!log.url.includes('http://')) {
-                fetch("/log", {
+                fetch("https://node-logger-1nwe.onrender.com/log", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify(log),
