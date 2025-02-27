@@ -23,7 +23,7 @@
             //     headers: { "Content-Type": "application/json" },
             //     data: JSON.stringify(log),
             // });
-            if (!log.url.includes('http://')) {
+            if (!log.url.includes('localhost') && !log.url.includes('node-logger-1nwe.onrender.com')) {
                 fetch("https://node-logger-1nwe.onrender.com/log", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
